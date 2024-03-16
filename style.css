@@ -1,0 +1,303 @@
+.wrapper{
+    background: url(nav.jpg) no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin-top: -7px;
+    margin-left: -7px;
+    width:100vw;
+    height:13.5vw;
+  
+}
+header{
+    width: 100%;
+    height: 42.5vw;
+}
+
+
+.my-logo{
+    position:fixed;
+    border: 2px;
+    border-radius: 13vw;
+    width: 13vw;;
+    height:13vw;
+    background-image: url(logo.jpg);
+    background-size: 100%;
+
+ }
+ h1{ position: fixed;
+    width:50vw;
+    font-size: 2vw;
+    text-align: center;
+    margin: 0 25vw;
+    color: black;
+
+ }
+ .padi{
+    margin: .8vw 75vw;
+    position:fixed;
+    border: 2px;
+    border-radius: 3vw;
+    width: 6vw;
+    height:6vw;
+    background-image: url(padi.jpg);
+    background-size: 100%;
+ }
+ h2{ position: fixed;
+    font-size:2vw;
+    color:white;
+    margin: 2.2vw 81vw;
+ }
+ .cmas{
+    margin: .8vw 86vw;
+    position:fixed;
+    border: 3px;
+    border-radius: 2.8vw;
+    width: 6vw;;
+    height:6vw;
+    background-image: url(cmas.jpg);
+    background-size: 100%;
+ }
+ .home{     position: fixed;
+            margin: 7.5vw 16vw;
+            min-height:2.5vw;
+            min-width: 6vw;
+            border-color:rgb(116, 255, 141);
+            border-radius: .1vw;
+            border: 15px 90px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            background-color:rgb(7, 112, 153);
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5vw;
+            color: white;
+}
+.home:hover{
+    opacity: 0.5;
+}
+.about{     position: fixed;
+            margin:7.5vw 24vw;
+            min-height:2.5vw;
+            min-width: 6vw;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            background: none;
+            border: none;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5vw;
+            color:rgb(14, 8, 85);
+}
+.about:hover{
+    opacity: 0.5;
+}
+.about:hover{
+opacity: 0.5;
+}
+
+
+.link-s{  
+            position: fixed;
+            margin:7.5vw 32vw;
+            min-height:2.5vw;
+            min-width: 6vw;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            background: none;
+            border: none;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5vw;
+            color:rgb(14, 8, 85);
+}
+.dropdown.active > .link-s,
+.link-s:hover{
+    opacity: 0.5;
+}
+.dropdown{
+    position:relative;}
+.dropdown-s {
+    margin:9vw 32.5vw;
+    position: absolute;
+    top: calc(100% + .25rem);
+    background-color: rgb(103, 239, 121);
+    padding: .25rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+    opacity:0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown.active > .link-s + .dropdown-s{
+    opacity:1;
+    transform: translateY(0);
+    pointer-events: auto;
+    
+
+}
+.services-grid{
+    display:grid;
+    grid-template-columns: repeat(1, max-content);
+    gap:1rem;
+}
+.link-book{  
+            position: fixed;
+            margin:7.5vw 42vw;
+            min-height:2.5vw;
+            min-width: 11vw;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            background: none;
+            border: none;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5vw;
+            color:rgb(14, 8, 85);
+}
+.dropdown.active > .link-book,
+.link-book:hover{
+    opacity: 0.5;
+}
+.dropdown{
+    position: relative;}
+.dropdown-book {
+    margin:9vw 42.5vw;
+    position: absolute;
+    top: calc(100% + .25rem);
+    background-color: rgb(103, 239, 121);
+    padding: .25rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+    opacity:0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown.active > .link-book + .dropdown-book{
+    opacity:1;
+    transform: translateY(0);
+    pointer-events: auto
+}
+.dropdown-heading{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+.link1{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap:.01rem;
+    font-size: 1.5vw;
+    text-align: left;
+}
+.dropdown-links{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap:.01rem;
+    font-size: 12px;
+    text-align: left;
+    
+}
+
+.gallery{position: fixed;
+    margin: 7.5vw 57.5vw;
+    height:2.5vw;
+    width: 12vw;
+    border:none;
+    background: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    box-shadow: 0px 0px 0px 0px;
+    padding:0px;
+    transition: background-color 1s,
+    color 1s;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    color:rgb(14, 8, 85);
+
+}
+.gallery:hover{
+opacity: 0.5;
+}
+.contact{position: fixed;
+    margin: 7.5vw 71vw;
+    height:2.5vw;
+    width: 13vw;
+    border:none;
+    background: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    box-shadow: 0px 0px 0px 0px;
+    padding:0px;
+    transition: background-color 1s,
+    color 1s;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    color:rgb(14, 8, 85);
+
+}
+.contact:hover{
+opacity: 0.5;
+}
+.booking{     position: fixed;
+    margin: 7.5vw 87vw;
+    min-height:2.5vw;
+    min-width: 11vw;
+    border-color:rgb(116, 255, 141);
+    border-radius: 2vw;
+    border: 15px 90px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    box-shadow: 0px 0px 0px 0px;
+    padding:0px;
+    transition: background-color 1s,
+    color 1s;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+    background-color:rgb(4, 83, 255);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    color: white;
+
+}
+.booking:hover{
+opacity: 0.5;
+}
+
+ 
