@@ -50,15 +50,6 @@ display=swap" rel="stylesheet">
                             data-value="All">Select All</div>
                     
                             <div class ="option"
-                             data-value="3,000.00 pesos Refresher">3,000.00 pesos <br> Refresher</div>
-                            <div class ="option"
-                             data-value="3,000.00 pesos Discover Scuba Diving">3,000.00 pesos <br> Discover Scuba Diving</div>
-                             <div class ="option"
-                             data-value="19,500.00 pesos Openwater Diver Course">19,500.00 pesos <br> Openwater Diver Course</div>
-                            <div class ="option"
-                             data-value="17,500.00 pesos Advance Openwater Diver Course">17,500.00 pesos <br> Advance Openwater <br> Diver Course</div>
-                            
-                             <div class ="option"
                              data-value="1dive - 1,900.00 pesos(Local Dive)">1dive - 1,900.00 pesos<br>(Local Dive)</div>
                              <div class ="option"
                              data-value="1dive - 1,900.00 pesos (Sunset/Night)">1dive - 1,900.00 pesos <br>*Advance & Up<br>(Sunset/Night)</div>
@@ -125,7 +116,7 @@ display=swap" rel="stylesheet">
                 Car Pick-up 3500pesos/max=3pax</label>
                 <label for="Van Pick-up"  class="special">
             <input type="checkbox" name="Van Pick-up" id="Van Pick-up">
-            Van Pick-up 6500pesos/max=15pax</label>
+            Van Pick-up 5000pesos/max=15pax</label>
             <label for="Boat Pick-up" class="special">
             <input type="checkbox" name="Boat Pick-up" id="Boat Pick-up">
            Boat Pick-up 2000pesos max=10pax (excess 200pesos/person)</label>
@@ -154,19 +145,21 @@ display=swap" rel="stylesheet">
 body{
     background:url(sunset.jpg) no-repeat;
     align-self: center;
-background-size: auto 100%;
+    width:100vw;
+background-size:100% 130%;
 }
+@media (min-width:1120px){
 .booking-form{
     margin-top:2vw;
     float:left;
     background-color: aqua;
-   margin-left: 5vw;
+   margin-left: 42%;
     opacity: 1;
     position: flex;
     font-weight: bold;
     padding: 10px 10px;
     border-radius: 10px;
-  max-width:225px;
+  width:20vw;
        color:black;
        height: auto;
 }
@@ -344,4 +337,957 @@ input {
 .special{
   
    font-size: 14px;
+}}
+@media (max-width:1120px){
+.booking-form{
+    margin-top:2vw;
+    float:left;
+    background-color: aqua;
+   margin-left: 38%;
+    opacity: 1;
+    position: flex;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+  width:25vw;
+       color:black;
+       height: auto;
+}
+.booking-form h2{
+    
+    text-align: center;
+}
+.booking-form form{
+    display:flex;
+    flex-direction: column;
+}
+.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover{
+    background-color: #45a049;
+}
+
+.home{
+            height: 30px;
+            border-color:white;
+            width: 80px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            float: top, left;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            text-align: center;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+}
+h1{ font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 1vw;}
+   
+    .container{
+  float:left;
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+
+.custom-select{
+   position: relative;
+ 
+}
+.select-box{
+   background-color: white;
+   border: 1px solid wheat;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 20px;
+   padding: 0 10px;
+   cursor: pointer;
+    width:205px;
+   border-radius: 5px;
+}
+.selected-options{
+   display:flex;
+   flex-wrap: wrap;
+   margin-top: 0;
+}
+.tag{
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+   margin-right: 1px;
+   padding: 6px 14px;
+   display: flex;
+   align-items: center;
+}
+.remove-tag{
+   
+   cursor: pointer;
+}
+.arrow{
+   color:black;
+   margin:0 10px;
+}
+.fa-angle-down{
+   color:black;
+   font-size:30px;
+}
+.options{
+   display:none;
+   position:absolute;
+   width:230px;
+   background-color:white;
+   border:1px solid wheat;
+   border-top: none;
+   max-height:225px;
+   overflow-y:auto;
+   z-index:1;
+   box-shadow: 0px 4px 8px red;
+}
+.open .options{
+   display: block ;
+}
+.option-search-tags{
+   background-color: white;
+   border: 1px solid wheat;
+   padding: 8px 0px;
+   margin: 8px;
+}
+.search-tags{
+   margin-top: -10px;
+   width:180px;
+   border:none;
+   outline:none;
+   padding:8px;
+   font-size:14px;
+}
+.clear{
+   position: absolute;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0;
+   color:black;
+   top:-1px;
+   left:auto;
+   right:5px;   
+}
+.option{
+   padding: 12px;
+   cursor: pointer;
+}
+.option.active{
+   color: red;
+   background-color: white;
+   border-bottom:1px solid wheat;
+}
+.tag:hover,
+.option:hover{
+   background-color: wheat;
+}
+.no-result-message{
+   padding: 0px 0px 12px 12px;
+}
+.error{
+   color:red;
+   margin-top: 8px;
+}
+input {
+ height: 20px;
+ max-width: 300px;
+    background-color: white;
+   float:left;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+}
+.special{
+  
+   font-size: 14px;
+}}
+@media (max-width:900px){
+.booking-form{
+    margin-top:2vw;
+    float:left;
+    background-color: aqua;
+   margin-left: 35%;
+    opacity: 1;
+    position: flex;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+  width:35vw;
+       color:black;
+       height: auto;
+}
+.booking-form h2{
+    
+    text-align: center;
+}
+.booking-form form{
+    display:flex;
+    flex-direction: column;
+}
+.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover{
+    background-color: #45a049;
+}
+
+.home{
+            height: 30px;
+            border-color:white;
+            width: 80px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            float: top, left;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            text-align: center;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+}
+h1{ font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 1vw;}
+   
+    .container{
+  float:left;
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+
+.custom-select{
+   position: relative;
+ 
+}
+.select-box{
+   background-color: white;
+   border: 1px solid wheat;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 20px;
+   padding: 0 10px;
+   cursor: pointer;
+    width:205px;
+   border-radius: 5px;
+}
+.selected-options{
+   display:flex;
+   flex-wrap: wrap;
+   margin-top: 0;
+}
+.tag{
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+   margin-right: 1px;
+   padding: 6px 14px;
+   display: flex;
+   align-items: center;
+}
+.remove-tag{
+   
+   cursor: pointer;
+}
+.arrow{
+   color:black;
+   margin:0 10px;
+}
+.fa-angle-down{
+   color:black;
+   font-size:30px;
+}
+.options{
+   display:none;
+   position:absolute;
+   width:230px;
+   background-color:white;
+   border:1px solid wheat;
+   border-top: none;
+   max-height:225px;
+   overflow-y:auto;
+   z-index:1;
+   box-shadow: 0px 4px 8px red;
+}
+.open .options{
+   display: block ;
+}
+.option-search-tags{
+   background-color: white;
+   border: 1px solid wheat;
+   padding: 8px 0px;
+   margin: 8px;
+}
+.search-tags{
+   margin-top: -10px;
+   width:180px;
+   border:none;
+   outline:none;
+   padding:8px;
+   font-size:14px;
+}
+.clear{
+   position: absolute;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0;
+   color:black;
+   top:-1px;
+   left:auto;
+   right:5px;   
+}
+.option{
+   padding: 12px;
+   cursor: pointer;
+}
+.option.active{
+   color: red;
+   background-color: white;
+   border-bottom:1px solid wheat;
+}
+.tag:hover,
+.option:hover{
+   background-color: wheat;
+}
+.no-result-message{
+   padding: 0px 0px 12px 12px;
+}
+.error{
+   color:red;
+   margin-top: 8px;
+}
+input {
+ height: 20px;
+ max-width: 300px;
+    background-color: white;
+   float:left;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+}
+.special{
+  
+   font-size: 14px;
+}}
+@media (max-width:635px){
+.booking-form{
+    margin-top:2vw;
+    float:left;
+    background-color: aqua;
+   margin-left: 35%;
+    opacity: 1;
+    position: flex;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+  width:45vw;
+       color:black;
+       height: auto;
+}
+.booking-form h2{
+    
+    text-align: center;
+}
+.booking-form form{
+    display:flex;
+    flex-direction: column;
+}
+.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover{
+    background-color: #45a049;
+}
+
+.home{
+            height: 30px;
+            border-color:white;
+            width: 80px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            float: top, left;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            text-align: center;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+}
+h1{ font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 1vw;}
+   
+    .container{
+  float:left;
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+
+.custom-select{
+   position: relative;
+ 
+}
+.select-box{
+   background-color: white;
+   border: 1px solid wheat;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 20px;
+   padding: 0 10px;
+   cursor: pointer;
+    width:205px;
+   border-radius: 5px;
+}
+.selected-options{
+   display:flex;
+   flex-wrap: wrap;
+   margin-top: 0;
+}
+.tag{
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+   margin-right: 1px;
+   padding: 6px 14px;
+   display: flex;
+   align-items: center;
+}
+.remove-tag{
+   
+   cursor: pointer;
+}
+.arrow{
+   color:black;
+   margin:0 10px;
+}
+.fa-angle-down{
+   color:black;
+   font-size:30px;
+}
+.options{
+   display:none;
+   position:absolute;
+   width:230px;
+   background-color:white;
+   border:1px solid wheat;
+   border-top: none;
+   max-height:225px;
+   overflow-y:auto;
+   z-index:1;
+   box-shadow: 0px 4px 8px red;
+}
+.open .options{
+   display: block ;
+}
+.option-search-tags{
+   background-color: white;
+   border: 1px solid wheat;
+   padding: 8px 0px;
+   margin: 8px;
+}
+.search-tags{
+   margin-top: -10px;
+   width:180px;
+   border:none;
+   outline:none;
+   padding:8px;
+   font-size:14px;
+}
+.clear{
+   position: absolute;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0;
+   color:black;
+   top:-1px;
+   left:auto;
+   right:5px;   
+}
+.option{
+   padding: 12px;
+   cursor: pointer;
+}
+.option.active{
+   color: red;
+   background-color: white;
+   border-bottom:1px solid wheat;
+}
+.tag:hover,
+.option:hover{
+   background-color: wheat;
+}
+.no-result-message{
+   padding: 0px 0px 12px 12px;
+}
+.error{
+   color:red;
+   margin-top: 8px;
+}
+input {
+ height: 20px;
+ max-width: 300px;
+    background-color: white;
+   float:left;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+}
+.special{
+  
+   font-size: 14px;
+}}
+
+@media (max-width:500px){
+.booking-form{
+    margin-top:2vw;
+    float:left;
+    background-color: aqua;
+   margin-left: 10%;
+    opacity: 1;
+    position: flex;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+  width:60vw;
+       color:black;
+       height: auto;
+}
+.booking-form h2{
+    
+    text-align: center;
+}
+.booking-form form{
+    display:flex;
+    flex-direction: column;
+}
+.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover{
+    background-color: #45a049;
+}
+
+.home{
+            height: 30px;
+            border-color:white;
+            width: 80px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            float: top, left;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            text-align: center;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+}
+h1{ font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 1vw;}
+   
+    .container{
+  float:left;
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+
+.custom-select{
+   position: relative;
+ 
+}
+.select-box{
+   background-color: white;
+   border: 1px solid wheat;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 20px;
+   padding: 0 10px;
+   cursor: pointer;
+    width:205px;
+   border-radius: 5px;
+}
+.selected-options{
+   display:flex;
+   flex-wrap: wrap;
+   margin-top: 0;
+}
+.tag{
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+   margin-right: 1px;
+   padding: 6px 14px;
+   display: flex;
+   align-items: center;
+}
+.remove-tag{
+   
+   cursor: pointer;
+}
+.arrow{
+   color:black;
+   margin:0 10px;
+}
+.fa-angle-down{
+   color:black;
+   font-size:30px;
+}
+.options{
+   display:none;
+   position:absolute;
+   width:230px;
+   background-color:white;
+   border:1px solid wheat;
+   border-top: none;
+   max-height:225px;
+   overflow-y:auto;
+   z-index:1;
+   box-shadow: 0px 4px 8px red;
+}
+.open .options{
+   display: block ;
+}
+.option-search-tags{
+   background-color: white;
+   border: 1px solid wheat;
+   padding: 8px 0px;
+   margin: 8px;
+}
+.search-tags{
+   margin-top: -10px;
+   width:180px;
+   border:none;
+   outline:none;
+   padding:8px;
+   font-size:14px;
+}
+.clear{
+   position: absolute;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0;
+   color:black;
+   top:-1px;
+   left:auto;
+   right:5px;   
+}
+.option{
+   padding: 12px;
+   cursor: pointer;
+}
+.option.active{
+   color: red;
+   background-color: white;
+   border-bottom:1px solid wheat;
+}
+.tag:hover,
+.option:hover{
+   background-color: wheat;
+}
+.no-result-message{
+   padding: 0px 0px 12px 12px;
+}
+.error{
+   color:red;
+   margin-top: 8px;
+}
+input {
+ height: 20px;
+ max-width: 300px;
+    background-color: white;
+   float:left;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+}
+.special{
+  
+   font-size: 14px;
+}}
+@media(max-width:360px){
+    
+.booking-form{
+    margin-top:2vw;
+    float:left;
+    background-color: aqua;
+   margin-left: 4%;
+    opacity: 1;
+    position: flex;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+  width:80vw;
+       color:black;
+       height: auto;
+}
+.booking-form h2{
+    
+    text-align: center;
+}
+.booking-form form{
+    display:flex;
+    flex-direction: column;
+}
+.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover{
+    background-color: #45a049;
+}
+
+.home{
+            height: 30px;
+            border-color:white;
+            width: 80px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 0.15s;
+            float: top, left;
+            box-shadow: 0px 0px 0px 0px;
+            padding:0px;
+            transition: background-color 1s,
+            color 1s;
+            text-align: center;
+            transition: box-shadow 0.15s,
+            color 0.15s;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+}
+h1{ font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 1vw;}
+   
+    .container{
+  float:left;
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+
+.custom-select{
+   position: relative;
+ 
+}
+.select-box{
+   background-color: white;
+   border: 1px solid wheat;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 20px;
+   padding: 0 10px;
+   cursor: pointer;
+    width:205px;
+   border-radius: 5px;
+}
+.selected-options{
+   display:flex;
+   flex-wrap: wrap;
+   margin-top: 0;
+}
+.tag{
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+   margin-right: 1px;
+   padding: 6px 14px;
+   display: flex;
+   align-items: center;
+}
+.remove-tag{
+   
+   cursor: pointer;
+}
+.arrow{
+   color:black;
+   margin:0 10px;
+}
+.fa-angle-down{
+   color:black;
+   font-size:30px;
+}
+.options{
+   display:none;
+   position:absolute;
+   width:230px;
+   background-color:white;
+   border:1px solid wheat;
+   border-top: none;
+   max-height:225px;
+   overflow-y:auto;
+   z-index:1;
+   box-shadow: 0px 4px 8px red;
+}
+.open .options{
+   display: block ;
+}
+.option-search-tags{
+   background-color: white;
+   border: 1px solid wheat;
+   padding: 8px 0px;
+   margin: 8px;
+}
+.search-tags{
+   margin-top: -10px;
+   width:180px;
+   border:none;
+   outline:none;
+   padding:8px;
+   font-size:14px;
+}
+.clear{
+   position: absolute;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0;
+   color:black;
+   top:-1px;
+   left:auto;
+   right:5px;   
+}
+.option{
+   padding: 12px;
+   cursor: pointer;
+}
+.option.active{
+   color: red;
+   background-color: white;
+   border-bottom:1px solid wheat;
+}
+.tag:hover,
+.option:hover{
+   background-color: wheat;
+}
+.no-result-message{
+   padding: 0px 0px 12px 12px;
+}
+.error{
+   color:red;
+   margin-top: 8px;
+}
+input {
+ height: 20px;
+ max-width: 300px;
+    background-color: white;
+   float:left;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+}
+.special{
+  
+   font-size: 14px;
+}
 }
