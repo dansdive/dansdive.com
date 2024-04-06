@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+        <meta http-equiv="X-UA-Compatible" content=IE-edge>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Dan's Dive</title>
+</head>
+
+   <body>
+
+    <div class="header">
+        <header> 
+            <div class="navs">
+            <div class="my-logo"></div>
+            <h1>OFFERS A UNIQUE BLEND OF ADVENTURE,
+                <br>EXPLORATION AND CONNECTION
+                <br>WITH THE NATURE</h1>
+            <div class="padi"></div>
+            <h2>PADI</h2>
+            <div class="cmas"></div>
+          
+    </div> <div class="wrappers">
+        <a href="https://dansdive.com/contactus" class="contactus">Contact Us</a>
+        <a  href="https://dansdive.com/malapascua" class="active">HOME</a>
+            <div>
+                <input type="checkbox" id="toggle">
+            <label for="toggle" class="checkbtn">&#9776;</label>
+            <nav>
+                <ul>
+                    <li><a href="https://dansdive.com/dansdive-malapascua">About</a></li>
+                         <li><a href="#">Dive Package</a>
+                                <ul>
+                                <li><a href="https://dansdive.com/fundive-malapascua">Fun Dive</a></li>
+                                <li><a href="https://dansdive.com/dive-course-malapascua">Course</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="#">Services</a>
+                                <ul>
+                                <li><a href="https://dansdive.com/city-pickup-malapascua">City Pickup</a></li>
+                                <li><a href="https://dansdive.com/boat-pickup-malapascua">Boat Pickup</a></li>
+                                <li><a href="https://dansdive.com/accommodation-malapascua"class=>Accomodation</a></li>
+                                </ul>  
+                        </li>
+               
+                    <li><a href="https://dansdive.com/malapascua-dive-gallery">Gallery </a></li>
+                    <li><a href="https://www.messenger.com/t/1343176755856452/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0">Messenger</a></li>
+                    <li><a href="https://dansdive.com/dive-booking-malapascua">BOOK NOW</a></li>
+                </ul>
+    </nav>
+    </div></div>  </header>  </div>
+    
+<div class="wholebody">
+
+    <img src="idea.png" class="idea">
+    <h4>HOW TO CHOOSE THE RIGHT DIVE CENTER?:
+        <p>If you're a diving enthiusiast, you know the importance of finding the right
+            dive center. Dive shops and diving resorts are an essential part of the scuba
+            diving community. They provide services, gear and expertise for divers of all
+            levels. From beginner courses to advanced technical diving, dive centers and
+            diving resorts oofer a range of services to meet the needs of every diver. Whether
+            you're a seasoned diver or just starting out, choosing the right dibe shop is essential
+            for your diving safety and enjoyment.</p>
+        
+            WHY CHOOSE US! 
+            <br><br>
+            Safety is the top priority in this scuba diving centre and rest assured that
+            safety standards are met. We follow international recognized protocols and
+            standards, training programs are thorough and effective. Dan's Dive ensure
+            that our gear is well-maintained and in good working condition, avoiding the 
+            risk of equipment failure during a dive.
+        </h4>
+<div class="container">
+    <h5>DAN'S DIVE MALAPASCUA DIVESHOP</h5>
+    <img src="centre.jpg" class="centre" alt="Shark Dive Dansdive Malapascua">
+            <p>In Malapascua, Dan's Dive is the first local dive shop in the island that was opened in 2002
+                up to date. The owner kept it as a small friendly centre that puts safety as a priority,
+                friendship and family as high on the list while the profit and growing at the bottom.
+        </p>
+    <img src="dans.jpg" class="dive1" alt="Shark Dive Dansdive Malapascua">
+    <img src="twinkle.jpg" class="dive2" alt="Shark Dive Dansdive Malapascua">
+    <h6> DANIEL VALE        /            AMPARO VALE</h6>
+        <p>Dan's Dive came from the owners name Daniel Vale who founded the shop in the
+            year 2002. Starting with 5 employees, he managed to run the business. In 2018,
+            Mr. Daniel Vale died by then his wife Mrs. Amparo Twinkle Vale take over the business
+            up to date.  
+            </p>
+<img src="5.jpg" class="dive3" alt="Shark Dive Dansdive Malapascua">
+            <div class="services"> SERVICES WE OFFER:</div>
+            <p>Scuba diving is an adventure sport that requires proper gear,
+                training, knowledge and support. Our dive centre provides
+                all of these essential elements for a safe and enjoyable diving
+                experience. Whether you are a beginner or an experienced diver,
+                we offer the necessary services to cater your needs.
+            </p>
+            <div class="image-container">
+                <div class="image1"><img src="seminar.jpg" alt="Shark Dive Dansdive Malapascua"></div>
+        </div>
+       
+        <div class="popup-image">
+            <span>&times;</span>
+                <img src="seminar.jpg" alt="Shark Dive Dansdive Malapascua">
+        </div>
+        <div class="cons1">ASSISTANT MANAGER OF DAN'S DIVE ETHAN VALE, ATTENDING A DIVING AND 
+            HYPERBARIC MEDICINE SEMINAR 2024
+            <p>Updated Knowledge: Medical practices, procedures, 
+                and research in the field of Diving and Hyperbaric 
+                Medicine are constantly evolving. Attending the
+                seminar will provide you with the latest information, 
+                advancements, and research findings, helping you stay 
+                abreast of current trends and best practices.
+            </p></div>
+    <div class="image-container">
+        <div class="image2"><img src="safety.jpg" alt="Shark Dive Dansdive Malapascua"></div>
+        </div>
+       
+        <div class="popup-image">
+            <span>&times;</span>
+                <img src="safety.jpg" alt="Shark Dive Dansdive Malapascua">
+        </div>
+        <div class="cons2"> SAFETY FIRST, BEFORE FUN
+            <p>Dan's Dive number one priority is to always keep you safe.
+                The fun will naturally arise once you witness the incredible diving sites that Malapascua Island has to offer. However, it's essential to prioritize safety before immersing ourselves in the underwater world. Remember to adhere to safety guidelines, such as checking your equipment thoroughly, staying within your limits, and following the guidance of experienced dive instructors. By taking precautions and respecting the ocean environment, we can ensure a memorable and secure diving experience for everyone involved.
+            </p></div>
+        </div>
+        <script>
+            document.querySelectorAll('.image-container img').forEach(image =>{
+                image.onclick = () =>{
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+            });
+            document.querySelector('.popup-image span').onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'none';
+            }
+         </script>
+</div>
+<style>
+    body{
+        width: 100vw;
+        font-family: 'Times New Roman', Times, serif;
+      
+    }
+.wholebody{  font-size: 1.2em;
+padding-top: 1vw;
+position: flex;
+margin-top: 2vw;
+    margin-left:-3vw;
+background-color: whitesmoke;
+    padding-right:1vw;
+    display:flex;
+width: 100vw;
+min-height: 200vw;}
+header{
+    padding-bottom: .5vw;
+}
+@media (min-width:1050px){
+.idea{
+    max-width: 3vw;
+    max-height: 3vw;
+    background-position-x: center;
+    background-position-y: center;
+    margin: -.5vw;
+    margin-left: 5%;
+    margin-right:-2vw;
+    position: flex;
+    float: left;
+
+    
+}
+h4{   margin-top:2.5vw;
+    margin-left: 2vw;
+    font-size:1.2vw;
+    text-align: justify;
+    font-weight: 100;
+   margin-right:1vw;
+   display:relative;
+
+}
+
+
+.container{
+    padding: 2%;
+    background:rgb(110,255,255 );
+    min-height:190vw;
+    width: 80vw;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+}
+
+
+.centre{
+    margin: 2vw 2vw;
+    width:60vw;
+    position: flex;
+    height: auto;
+}
+h5{ position: flex;
+    font-size:2vw;
+    text-align: center;
+    margin:-1vw 0vw;
+    width:64.5vw;
+    font-weight: bold;}
+.dive1{
+    margin: 0 7vw;
+    width:20vw;
+    border-radius: 20vw;
+    position: flex;
+
+}
+.dive2{
+    margin: 0 4vw;
+    width:19vw;
+    border-radius: 19vw;
+    position: flex;
+}
+h6{position: flex;
+    font-size:2vw;
+    text-align: center;
+    margin:1vw 0vw;
+    width:64.5vw;
+    font-weight: bold;}
+.dive3{
+    margin: 2vw 2vw;
+    width:60vw;
+    position: flex;
+    height: auto;
+}
+.services{position: flex;
+    font-size:2vw;
+    text-align: center;
+    margin:1vw 0vw;
+    width:64.5vw;
+    font-weight: bold;}
+
+    .container .image-container .image1{
+    
+    margin: 2vw 11vw;
+    padding: 1px 1px ;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size:35px;
+    height:25vw;
+    min-width:40vw;
+    border:5px solid green;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor:pointer;
+    position: flex;
+}
+
+.container .image-container .image1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.container .image-container .image1:hover img{
+    transform: scale(1.1);
+}
+.container .image-container .image2{
+    margin: 2vw 18vw;
+    padding: 1px 1px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size:35px;
+    height:25vw;
+   min-width:25vw;
+    border:5px solid blue;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor:pointer;
+    position: flex;
+}
+.cons1{ 
+    position: flex;
+    margin:2vw 0vw;
+    width:100%;
+    text-align:justify;
+    font-size: .8em; 
+    color: black;
+    font-weight: 100;
+    margin-bottom:2vw;
+    padding-bottom:2vw;
+}
+.cons2{
+    position: flex;
+    margin:2vw 0vw;
+    width:64vw;
+    text-align:justify;
+    font-size: .8em;
+    color: black;
+    font-weight: 100;
+}
+.container .image-container .image2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.container .image-container .image2:hover img{
+    transform: scale(1.1);
+}
+.container .popup-image{
+    position: fixed;
+    top:0; left:0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index:100;
+    display: none;
+}
+.container .popup-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color:#fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.container .popup-image img{
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    width: fit-content;
+    height: 100%;
+}
+@media(max-width:100vw){
+    .container .popup-image img{
+       min-width:42vw;
+    }
+}
+}
+@media(max-width:1050px){
+
+
+.idea{
+   display: none;
+}
+h4{  display: none;
+
+}
+
+
+.container{
+    margin-left: 2vw;
+    margin-top: 2%;
+    background:rgb(110,255,255 );
+    min-height:190vw;
+    width:100%;
+    padding: 2%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+}
+
+
+.centre{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-left: 5%;
+    width:80vw;
+    position: flex;
+    height: auto;
+    text-align: justify
+}
+h5{ position: flex;
+    font-size:1em;
+    text-align: center;
+    width:100%;
+    font-weight: bold;}
+.dive1{
+    margin-top: 5%;
+    margin-left: 28%;
+    width:20vw;
+    border-radius: 20vw;
+    position: flex;
+
+}
+.dive2{
+    width:19vw;
+    border-radius: 19vw;
+    position: flex;
+}
+h6{position: flex;
+    font-size:.8em;
+    text-align: center;
+    margin:1vw 0vw;
+    width:100%;
+    font-weight: bold;}
+.dive3{
+    margin-top:5%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width:80vw;
+    position: flex;
+    height: auto;
+}
+.services{position: flex;
+    font-size:.8em;
+    text-align: center;
+    width:100%;
+    font-weight: bold;}
+
+    .container .image-container .image1{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size:1em;
+    width: 80vw;
+    overflow: hidden;
+    cursor:pointer;
+    position: flex;
+}
+
+.container .image-container .image1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.container .image-container .image1:hover img{
+    transform: scale(1.1);
+}
+.container .image-container .image2{
+    margin: 2vw 18vw;
+    padding: 1px 1px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size:1em;
+    width: 80;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor:pointer;
+    position: flex;
+}
+.cons1{ 
+    position: flex;
+    margin:2vw 0vw;
+    width:98%;
+    text-align:justify;
+    font-size: .8em; 
+    color: black;
+    font-weight: 100;
+    margin-bottom:2vw;
+    padding-bottom:2vw;
+}
+.cons2{
+    position: flex;
+    margin:2vw 0vw;
+    width:98%;
+    text-align:justify;
+    font-size: .8em;
+    color: black;
+    font-weight: 100;
+}
+.container .image-container .image2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.container .image-container .image2:hover img{
+    transform: scale(1.1);
+}
+.container .popup-image{
+    position: fixed;
+    top:0; left:0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index:100;
+    display: none;
+}
+.container .popup-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color:#fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.container .popup-image img{
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    width:100%;
+    object-fit: cover;
+}
+@media(max-width:400px){
+    .container .popup-image img{
+    width:100%;
+    }
+}
+
+
+</style>
