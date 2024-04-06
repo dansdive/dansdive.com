@@ -13,6 +13,21 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://dansdive.com/</loc>
+  <lastmod>2024-03-16T05:01:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.dansdive.com/</loc>
+  <lastmod>2024-03-16T05:01:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.dansdive.com/</loc>
+  <lastmod>2024-03-16T05:01:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
   <loc>https://dansdive.com/index</loc>
   <lastmod>2024-03-16T05:01:37+00:00</lastmod>
   <priority>0.80</priority>
