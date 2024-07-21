@@ -26,19 +26,6 @@ header{
             align-self: center;
             margin-top: 0;
         }  
-        .contactus{
-            float:left;
-            margin-left: 12%;
-            color: white;
-            text-transform: uppercase;
-            font-size: 20px;
-            padding: 2px 2px;
-            height: auto;
-            margin-top: 5%;
-            text-shadow: 2px 5px 5px #000;
-            cursor: pointer;
-            transition: .5s ease;
-         }
          .contactus:hover{
             opacity: .5;
          }
@@ -250,18 +237,6 @@ cursor: pointer;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
      .contactus:hover{
         opacity: 0.5;
      }
@@ -480,18 +455,7 @@ opacity: 0.5;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
+
      .contactus:hover{
         opacity: 0.5;
      }
@@ -710,18 +674,6 @@ opacity: 0.5;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
      .contactus:hover{
         opacity: 0.5;
      }
@@ -940,18 +892,6 @@ opacity: 0.5;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
      .contactus:hover{
         opacity: 0.5;
      }
@@ -1168,18 +1108,6 @@ opacity: 0.5;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
      .contactus:hover{
         opacity: 0.5;
      }
@@ -1396,18 +1324,6 @@ opacity: 0.5;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
      .contactus:hover{
         opacity: 0.5;
      }
@@ -1625,18 +1541,6 @@ opacity: 0.5;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
      .contactus:hover{
         opacity: 0.5;
      }
@@ -1834,18 +1738,6 @@ opacity: 0.5;
         align-self: center;
         margin-top: 0;
     }  
-    .contactus{
-        float:left;
-        transition: opacity 0.15s;
-        margin-left: 25%;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 2px 2px;
-        height: auto;
-        text-shadow: 2px 5px 5px #000;
-        cursor: pointer;
-     }
      .contactus:hover{
         opacity: 0.5;
      }
