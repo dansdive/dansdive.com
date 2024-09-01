@@ -65,6 +65,13 @@
     </div></div>  </header>  </div>
 
     <div class="wholebody">
+<div class="popup">
+    <button id="close">&times;</button>
+    <h3>NOTICE</h3>
+        <p>This website is no longer affiliated with Dans Dive. However, we have partnered with excellent diving operators on Malapascua Island and continue to assist with booking dives and other activities. For more information, please visit philippine-tourism-guide.com or click 'Contact Us.'</p>
+<a href="https://philippine-tourism-guide.com/contact/"> Contact Us</a>
+    <script src="scripted.js"</script>
+</div>
         <h3>AN UNDERWATER WORLD</h3>
         <div class="side">
         <img src="1.jpg" class="dive" alt="Shark Dive Dansdive Malapascua">
@@ -104,6 +111,42 @@
     </html>
 
 <style>
+    .popup{background-color:#ffffff;
+           width:450px;
+           padding: 30px 40px;
+           position:absolute;
+           transform: translate(-50%, -50%);
+           left: 50%;
+           top: 50%;
+           border-radius: 8px;
+           font-family:"Poppins",sans-serif;
+           display:none;
+          }
+    .popup button{
+        display:block;
+        margin: 0 0 20px auto;
+        background-color: transparent;
+        font-size:30px;
+        color:#c5c5c5;
+        border:none;
+        outline:none;
+        cursor:pointer;
+    }
+    .popup p{
+        font-size:14px;
+        text-align: justify;
+        margin:20px 0;
+    }
+    a{ display:block;
+      width:150px;
+      position:relative;
+      margin:auto;
+      text-align:center;
+      background-color: #0f72e5;
+      color:#ffffff;
+      text-decoration:none;
+      padding: 5px 0;
+     }
     body{
         max-width: 100vw;
     }
