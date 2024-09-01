@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
             document.querySelector(".popup").style.
             display = "block";
         },
-        1000
+        9000
     )
 });
 document.querySelector("#close").addEventListener
