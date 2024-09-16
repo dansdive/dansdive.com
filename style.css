@@ -6,15 +6,12 @@ list-style: none;
 max-width:100vw;}
 header{
     margin-top: -5px;
-    padding-top: 15px;
-}
-body{background:linear-gradient(to bottom, #87CEFA, #00BFFF);
-    }
 .header{
     height: 150px;
 }
      @media (min-width:1050px){
         header{ box-shadow: 2px 5px 5px #000;
+               padding-top: 5px;
             background:linear-gradient(to bottom, #87CEFA, #00BFFF);
             background-position: cover;
             position: fixed;
