@@ -11,6 +11,7 @@ header{
 }
      @media (min-width:1950px){
         header{ box-shadow: 2px 5px 5px #000;
+               padding-top:5px;
             background:linear-gradient(to bottom, #87CEFA, #00BFFF);
             background-position: cover;
             position: fixed;
