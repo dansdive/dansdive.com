@@ -693,7 +693,7 @@ background-color:rgba(0, 251, 255, 0.777);
     }
     @media (max-width:725px){
         .contactus{
-            margin-top: 50%;
+            margin-top: 35%;
             position: flex;
             margin-left: 80%;
             border: 3px;
@@ -918,7 +918,7 @@ from, to { border-color: transparent }
 }
     @media (max-width:325px){
         .contactus{
-            margin-top: 42%;
+            margin-top: 35%;
             position: flex;
             margin-left: 80%;
             border: 3px;
