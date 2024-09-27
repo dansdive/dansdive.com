@@ -1,1143 +1,1208 @@
-*{ 
-    padding:0;
-    margin: 0;
-text-decoration: none; 
-font-family: monospace;
-list-style: none;
-max-width:100vw;}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+        <meta http-equiv="X-UA-Compatible" content=IE-edge>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="header.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <script src="search.js" defer></script>
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Dan's Dive",
+    "alternateName": ["Dive Shop", "Malapascua Diving", "Scuba Diving"],
+  "url": ["https://dansdive.com","http://dansdive.com", "https://www.dansdive.com", "http://www.dansdive.com"],
+  "logo": "logo.jpg"
+}
+</script>
+        <title>Dan's Dive | Scuba Diving - Malapascua Island</title>
+</head>
 
-    @media (min-width:1025px){
-        .contactus{
-            position: flex;
-            float: right;
-            margin-right: 2%;
-            border: 3px;
-            border-radius: 50%;
-            width: 5%;
-            height:auto;
-            background-size: 100%;
-            box-shadow: 2px 5px 5px black;
-        }.contactus:hover{
-            opacity: 0.5;
-        }
-        header {
-            width: 100%;
-            height: 50vw;
-            background-image: url('header.jpg');
+<header>  
+           <div class="header-content">
+            <img src="touristlogo.jpg" class="my-logo" alt="Scuba Diving Malapascua Island">
+            <a href="https://dansdive.com/index.html" class="site-title">Scuba Diving Malapascua Island</a>
+            
+            <img src="padi.jpg" class="padi" alt="Padi Diving Malapascua Island">
+            <img src="cmas.jpg" class="cmas" alt="Cmas Diving Malapascua Island">
+            <div class="search-container">
+                
+                <input type="text" id="searchInput" class="search-box" placeholder="Search...">
+                <button type="submit" id="searchButton"class="search-button">Search</button>
+          
+         <div id="resultBar"> </div>
+            </div>
+            <h1> WEBSITE IN PARTNERSHIP WITH
+                <br> PHILIPPINE TOURISM GUIDE </h1> 
+                
+            <div class="wrappers">
+            <div>
+                <input type="checkbox" id="toggle">
+            <label for="toggle" class="checkbtn">&#9776;</label>
+            <nav>
+                <ul>
+                    
+                    <li><a href="https://dansdive.com/dansdive_malapascua">About</a></li>
+                         <li><a href="#">Dive Package</a>
+                                <ul>
+                                <li><a href="https://dansdive.com/fundive_malapascua">Fun Dive</a></li>
+                                <li><a href="https://dansdive.com/dive_course_malapascua">Course</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="#">Services</a>
+                                <ul>
+                                <li><a href="https://dansdive.com/city_pickup_malapascua">City Pickup</a></li>
+                                <li><a href="https://dansdive.com/boat_pickup_malapascua">Boat Pickup</a></li>
+                                <li><a href="https://dansdive.com/accommodation_malapascua"class=>Accomodation</a></li>
+                                </ul>  
+                        </li>
+                        <li><a href="#">Learn More</a>
+                            <ul>
+                                <li><a href="https://dansdive.com/malapascua_dive_faq's">FAQ's</a></li>
+                                <li><a href="https://dansdive.com/malapascua_dive_blog">Blog</a></li>
+                                </ul>
+                        </li>
+                </ul>
+    </nav>
+    </div>
+    
+</div> </div> 
+<a href="https://dansdive.com/contactus" >
+    <img src="contactus.jpg" class="contactus"alt="Description of Image">
+  </a> 
+</header>  <br>
+<body>
+    <div class="about">
+        <h2>Discover Malapascua Island</h2>
+      
+        <div class="container">
+            <a href="https://dansdive.com/dansdive_malapascua">
+            <img src="island.jpg" class="dive" alt="Shark Dive Dansdive Malapascua">
+        </a><h3>
+                Malapascua Island in the Philippines</h3>
+                <p> is renowned for its exceptional diving, especially for thresher shark encounters. It offers rich marine biodiversity, including vibrant coral reefs and diverse marine life. The island's dive sites cater to all levels of divers and feature opportunities for macro photography and wreck diving. With year-round diving conditions, Malapascua is a top destination for unforgettable underwater experiences.
+                </p> 
+
+            </div>  
+    </div>
+    <br>
+    <div class="scubadiving">
+        <h2>Scuba Diving</h2>
+        <div class="scubadive">
+    <div class="left">
+    <h4>
+        Fundives
+    </h4>
+    <a href="https://dansdive.com/fundive_malapascua">
+    <img src="diving.jpg" class="diving" alt="Shark Dive Dansdive Malapascua">
+</a> <br><br>
+    <p>
+       Offering divers the rare opportunity to encounter majestic thresher sharks at Monad Shoal, one of the few places in the world where these elusive creatures can be seen regularly. The island’s vibrant coral reefs teem with diverse marine life, including colorful nudibranchs, pygmy seahorses, and sea turtles, making every dive a visual feast. For those interested in wreck diving, the sunken Dona Marilyn ferry provides an eerie yet fascinating underwater exploration. Additionally, nearby Gato Island boasts underwater caverns and tunnels filled with white-tip reef sharks, sea snakes, and a myriad of other marine species. Whether you’re a seasoned diver or a beginner, Malapascua promises an unforgettable diving experience.
+    </p>
+ </div>
+ <div class="right">
+    <h4>
+        Courses
+    </h4>
+    <a href="https://dansdive.com/dive_course_malapascua">
+    <img src="course.jpg" class="course" alt="Shark Dive Dansdive Malapascua">
+</a>    <br><br>
+    <p>
+        Our scuba diving courses cater to all levels of divers, from beginners to advanced. The Discover Scuba Diving program offers a taste of the underwater world under the guidance of a certified instructor, perfect for those new to diving. For those ready to take the plunge, the Open Water Diver Course provides a comprehensive foundation in diving skills and knowledge, preparing you for safe and confident underwater exploration. The Advanced Open Water Diver Course further enhances your diving abilities, allowing you to gain experience in various environments and specialties. For certified divers looking to refresh their skills, our Scuba Review or Scuba Refresher program ensures you’re ready for your next underwater adventure.
+    </p>
+ </div>
+</div></div>
+<br>
+<div class="services">
+    <h2>Other Services</h2>
+         <div class="boatcon">  <h3>Private Boat</h3> 
+            <a href="https://dansdive.com/boat_pickup_malapascua">
+            <img src="boat.jpg" class="boat" alt="Shark Dive Dansdive Malapascua">
+        </a></div>
+<div class="group">
+        <div class="vehiclecon"> <h3>Private Vehicle</h3>
+        <a href="https://dansdive.com/city_pickup_malapascua">
+               <img src="vehicle.jpg" class="vehicle" alt="Shark Dive Dansdive Malapascua">
+            </a> </div>          
+        <div class="roomcon"><h3>Accommodation</h3>
+        <a href="https://dansdive.com/accommodation_malapascua">
+        <img src="room.jpg" class="room" alt="Shark Dive Dansdive Malapascua">
+    </a></div>
+</div></div>
+<br>
+
+<div class="faq">
+    <a href="https://dansdive.com/malapascua_dive_faq's">
+    <h2>Frequently Ask Question's</h2></a>
+    <div>
+    <p>
+        <br>HOW TO GET TO MALAPASCUA ISLAND?: <br>
+        <br>BOOK Private Transfer with us:
+        <br>*We will arrange a private transfer from Mactan-Cebu International Airport or from your accomodation directly to Maya Port 
+       <br> *From Maya Port, we'll take you in a private boat to Malapascua Island.
+     <br><br>By Land and Sea:
+      <br>  *Take a taxi or private car from Mactan-Cebu International Airport to Maya Port in Daanbantayan, Cebu. This journey takes approximately 3 to 4 hours, depending on traffic conditions.
+      <br>  *From Maya Port, board a public or private boat to Malapascua Island. The boat ride typically takes around 30 to 45 minutes, depending on sea conditions.
+        <br><br>By Bus and Sea: 
+   <br> *Take a taxi or private car from Mactan-Cebu International Airport to the North Bus Terminal in Cebu City.
+    <br>   *Board a Ceres Bus bound for Maya Port in Daanbantayan. The bus journey takes approximately 4 to 5 hours.
+    <br>    *From Maya Port, take a public or private boat to Malapascua Island.
+    </p><br>
+</div></div>
+<br>
+<div class="blog">
+    <a href="https://dansdive.com/malapascua_dive_blog">
+    <h2>Share Your Experience</h2></a>
+<div class="article">
+    <h3>Once an Island Girl:
+     <br> My Mesmerizing Journey to Malapascua Island </h3>
+<p>
+    My journey to Malapascua Island was a magical experience, from swimming and snorkeling in its crystal-clear waters to diving deeper and marveling at the vibrant marine life, including the famous thresher sharks. Island hopping revealed stunning landscapes and diverse beauty, while the local fiesta celebrations and weekly discos immersed me in the island’s vibrant culture. Peaceful moments by the shore, watching the horizon, provided a serene escape, and evenings filled with beachside dining and live music created wonderful memories. The island’s market offered a culinary paradise with a variety of fresh seafood, meats, and vegetables, enjoyed by travelers from around the world. Overall, Malapascua Island was a perfect blend of natural beauty, adventure, and cultural richness, leaving me with unforgettable memories.
+</p>
+</div></div>
+<br>
+
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-68f95f31-059b-4630-b7d3-8b17397a75d6" data-elfsight-app-lazy></div>
+       <br>
+       <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <h4>Contact Information</h4>
+                <p>maryjoy.padiz1@gmail.com</p>
+                <p>(+63) 991-643-6458</p>
+                <p>Fermina Maya Daanbantayan, Cebu 6013 Philippines</p>
+            </div>
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="https://dansdive.com/dansdive_malapascua">About</a></li>
+                    <li><a href="https://dansdive.com/fundive_malapascua">Fundive</a></li>
+                    <li><a href="https://dansdive.com/dive_course_malapascua">Course</a></li>
+                    <li><a href="https://dansdive.com/city_pickup_malapascua">Private Vehicle</a></li>
+                    <li><a href="https://dansdive.com/boat_pickup_malapascua">Private Boat</a></li>
+                    <li><a href="https://dansdive.com/accommodation_malapascua">Accommodation</a></li>
+                    <li><a href="https://dansdive.com/malapascua_dive_faq's">FAQ's</a></li>
+                    <li><a href="https://dansdive.com/malapascua_dive_blog">Blog</a></li>
+                    <li><a href="https://dansdive.com/contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2024 Scuba Diving Malapascua Island All rights reserved.
+        </div>
+    </footer>
+      
+    </body>
+    </html>
+
+<style>
+      body{
+        max-width: 100vw;
+       
+    }
+@media (min-width:725px) {
+  
+    .about{
+        background-image:url('aboutback.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            background-attachment: fixed;
             box-shadow: 2px 5px 5px #000;
-            border-radius: 1%;
-        animation: float 3s infinite ease-in-out;
+            padding: 1% 1%;
+             
+    }
+
+    .container{ margin-left: 10%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 80%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+ 
+    }
+   
+.container p{
+    color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1.2em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+   
+}
+.scubadiving{
+        background-image:url('thresher.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+           
+    }
+.scubadive{
+    display: inline-flex;
+}
+.group{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.dive{
+    margin-left: 20%;
+        padding: 2% 2%;
+
+    height: auto;
+    width: 60%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        padding-bottom:1% ;
+}
+.left{ margin-left: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 40%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+    animation: wave 3s ease-in;
             }
-            @keyframes float {
+            @keyframes wave {
                 0% {
-                    transform: translateY(0);
+                    transform: translateX(0);
                 }
                 50% {
-                    transform: translateY(-10px);
+                    transform: translateX(80px);
                 }
                 100% {
-                    transform: translateY(0);
+                    transform: translateX(0);
                 }
-            }
-        
-.my-logo{margin-top:3%;
-    margin-left: 3%;
-    position:relative;
-    border: 20px;
-    border-radius: 100%;
-    width: 9%;
-    height:auto;
-    background-image: url(logo.jpg);
-    background-size: 100%;
-    box-shadow: 2px 5px 5px #000;
- }   
- .site-title {
-    margin: 5% 1%;
-    position: absolute;
-    width:60%;
-    font-size: 4vw;
-  color: Black;
-    padding: 1px 1px;
- text-shadow: 2px 5px 5px #fff;
- font-family: raleway;
- cursor:pointer;
- font-weight: bold;
-}
-
-
-.site-title:hover {
-    color: white;
-    text-shadow: 2px 5px 5px black;
-     /* Change color on hover */
-}
-
-
-.padi{
-    float: right;
-  margin: 4% 3%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
- } 
- .cmas{
-   float: right;
-    margin:4% 1%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
-}
-.search-container {
- position:relative;
-    margin-left: 15%;
-   margin-right: 15%;
-   margin-top: 1%;
-   margin-bottom: 1%;
-
-}
-.search-box {
-  height: 2vw;
-    width: 50vw;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-}
-.search-button {
-   
-    padding: 10px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-   
-}
-.search-button:hover {
-    background-color: #0056b3;
-}
-.wrappers{
-    display: inline-block;
-    width:100%;
-}
-.wrappers  nav{box-shadow: 2px 5px 5px #000;
-  align-content: center;
-    width: fit-content;
-    font-family: 'Roboto', sans-serif;
-   float: right;
-    height: 50px;   
-    margin-top: -24%;
-    color: rgb(6, 6, 143);
-    text-shadow: 2px 5px 5px black;
-    background-color:rgba(0, 251, 255, 0.777);
-     }
-.wrappers nav ul{    list-style-type: none;
-    float: right;
-    display: flex;
     }
-
-.wrappers nav ul li{
-  position: relative;
-float: right;
-line-height:80px;
-width: 200px;
-line-height: 10px;
-text-align: center;
-border-left:1px solid #fff ;
-cursor: pointer;
-transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-
+    .left p{
+        color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1.2em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+   
 }
-.wrappers nav ul li a{   font-size: 1.3em; 
-position: relative;
-text-transform: uppercase;
-padding: 10px 10px;
-font-weight: bold;
-display: block;
-cursor: pointer;
-color: rgb(6, 6, 143);
-text-shadow: 2px 5px 5px black;
-
-}
-.wrappers nav ul li:hover{
-    opacity: #fff;
-}
-.wrappers nav ul li a:hover{
-    color:#fff;
-}
-.wrappers nav ul ul{
-    display: none;
+.right{ margin-left: 16%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
     height: auto;
-    text-align: center;
-    position:absolute;
-    margin-top:5%;  
-    width:auto;
-    color: rgb(6, 6, 143);
-text-shadow: 2px 5px 5px black;
-background-color:rgba(0, 251, 255, 0.777);
-
-}
-.wrappers nav ul ul li{
-    height: 50px;
-    line-height: 20px;
-  
-}
-
-.wrappers nav ul li:hover > ul{
-    display: block;
-    
-}     
-    #toggle{
-        display: none;
+    width: 40%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+    animation: wave2 3s ease-in;
+            }
+            @keyframes wave2 {
+                0% {
+                    transform: translateX(0);
+                }
+                50% {
+                    transform: translateX(-80px);
+                }
+                100% {
+                    transform: translateX(0);
+                }
     }
-    .checkbtn{
-        display: none;
-    }
-    h1{
-        margin-top:15%;
+   
+    .right p{
+    color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1.2em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+   
+}
+h4{font-family: Playfair Display;
         text-align: center;
         position:relative;
-        margin-left: 10vw;
-        margin-right: 10vw;
-            width:80vw;
-            font-size: 4vw;
-            color: white;
-         text-shadow: 2px 5px 5px black;
-         font-weight: bold;
-
+        margin-left: 3%;
+        margin-top:2%;
+            font-size: 2.5em;
+            color:black;
+        }
+ h2{ position: relative;
+    width:100vw;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 1%;
+    color: navy;
+    opacity: 1;
+    text-shadow: 2px 5px 5px rgb(7, 223, 252);
     font-family: Playfair Display;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid white; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    letter-spacing: .09 em; /* Adjust as needed */
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-}
+ }
 
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: white; }
-}
-    }
-    @media (min-width:925px) and (max-width:1025px){
-        .contactus{
-            position: flex;
-            float: right;
-            margin-right: 2%;
-            border: 3px;
-            border-radius: 50%;
-            width: 5%;
-            height:auto;
-            background-size: 100%;
-            box-shadow: 2px 5px 5px black;
-        }.contactus:hover{
-            opacity: 0.5;
-        }
-        header {
-            width: 100%;
-            height: 60vw;
-            background-image: url('header.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            box-shadow: 2px 5px 5px #000;
-            border-radius: 1%;
-        animation: float 3s infinite ease-in-out;
-            }
-            @keyframes float {
-                0% {
-                    transform: translateY(0);
-                }
-                50% {
-                    transform: translateY(-10px);
-                }
-                100% {
-                    transform: translateY(0);
-                }
-            }
-        
-.my-logo{margin-top:3%;
-    margin-left: 3%;
-    position:relative;
-    border: 20px;
-    border-radius: 100%;
-    width: 9%;
-    height:auto;
-    background-image: url(logo.jpg);
-    background-size: 100%;
-    box-shadow: 2px 5px 5px #000;
- }   
- .site-title {
-    margin: 5% 1%;
-    position: absolute;
-    width:60%;
-    font-size: 4vw;
-  color: Black;
-    padding: 1px 1px;
- text-shadow: 2px 5px 5px #fff;
- font-family: raleway;
- cursor:pointer;
- font-weight: bold;
-}
-.site-title:hover {
-    color: white;
-    text-shadow: 2px 5px 5px black;
-     /* Change color on hover */
-}
-
-
-.padi{
-    float: right;
-  margin: 4% 3%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
- } 
- .cmas{
-   float: right;
-    margin:4% 1%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
-}
-.search-container {
- position:relative;
-    margin-left: 15%;
-   margin-right: 15%;
-   margin-top: 1%;
-   margin-bottom: 1%;
-
-}
-.search-box {
-  height: 2vw;
-    width: 50vw;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-}
-.search-button {
-   
-    padding: 10px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-   
-}
-.search-button:hover {
-    background-color: #0056b3;
-}
-.wrappers{
-    display: inline-block;
-    width:100%;
-}
-.wrappers  nav{box-shadow: 2px 5px 5px #000;
-  align-content: center;
-    width: fit-content;
-    font-family: 'Roboto', sans-serif;
-   float: right;
-    height: 50px;   
-    margin-top: -30%;
-    color: rgb(6, 6, 143);
-    text-shadow: 2px 5px 5px black;
-    background-color:rgba(0, 251, 255, 0.777);
-     }
-.wrappers nav ul{    list-style-type: none;
-    float: right;
-    display: flex;
-    }
-
-.wrappers nav ul li{
-  position: relative;
-float: right;
-line-height:80px;
-width: 200px;
-line-height: 10px;
-text-align: center;
-border-left:1px solid #fff ;
-cursor: pointer;
-transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-
-}
-.wrappers nav ul li a{   font-size: 1.3em; 
-position: relative;
-text-transform: uppercase;
-padding: 10px 10px;
-font-weight: bold;
-display: block;
-cursor: pointer;
-color: rgb(6, 6, 143);
-text-shadow: 2px 5px 5px black;
-
-}
-.wrappers nav ul li:hover{
-    opacity: #fff;
-}
-.wrappers nav ul li a:hover{
-    color:#fff;
-}
-.wrappers nav ul ul{
-    display: none;
-    height: auto;
-    text-align: center;
-    position:absolute;
-    margin-top:5%;  
-    width:auto;
-    color: rgb(6, 6, 143);
-text-shadow: 2px 5px 5px black;
-background-color:rgba(0, 251, 255, 0.777);
-
-}
-.wrappers nav ul ul li{
-    height: 50px;
-    line-height: 20px;
-  
-}
-
-.wrappers nav ul li:hover > ul{
-    display: block;
-    
-}     
-    #toggle{
-        display: none;
-    }
-    .checkbtn{
-        display: none;
-    }
-    h1{
-        margin-top:20%;
+    h3{font-family: Playfair Display;
         text-align: center;
         position:relative;
-        margin-left: 10vw;
-        margin-right: 10vw;
-            width:80vw;
-            font-size: 4vw;
-            color: white;
-         text-shadow: 2px 5px 5px black;
-           font-weight: bold;
-
-           font-family: Playfair Display;
-           overflow: hidden; /* Ensures the content is not revealed until the animation */
-           border-right: .15em solid white; /* The typwriter cursor */
-           white-space: nowrap; /* Keeps the content on a single line */
-           letter-spacing: .09em; /* Adjust as needed */
-           animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-       }
-       
-       /* The typing effect */
-       @keyframes typing {
-           from { width: 0 }
-           to { width: 100% }
-       }
-       
-       /* The typewriter cursor effect */
-       @keyframes blink-caret {
-           from, to { border-color: transparent }
-           50% { border-color: white; }
-       }
-    }
-    
-    @media (min-width:725px) and (max-width:925px){
-        .contactus{
-            position: flex;
-            float: right;
-            margin-right: 2%;
-            border: 3px;
-            border-radius: 50%;
-            width: 5%;
-            height:auto;
-            background-size: 100%;
-            box-shadow: 2px 5px 5px black;
-        }.contactus:hover{
-            opacity: 0.5;
-        }
-        header {
-            width: 100%;
-            height: 70vw;
-            background-image: url('header.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            box-shadow: 2px 5px 5px #000;
-            border-radius: 1%;
-        animation: float 3s infinite ease-in-out;
-            }
-            @keyframes float {
-                0% {
-                    transform: translateY(0);
-                }
-                50% {
-                    transform: translateY(-10px);
-                }
-                100% {
-                    transform: translateY(0);
-                }
-            }
-        
-.my-logo{margin-top:3%;
-    margin-left: 3%;
-    position:relative;
-    border: 20px;
-    border-radius: 100%;
-    width: 9%;
-    height:auto;
-    background-image: url(logo.jpg);
-    background-size: 100%;
-    box-shadow: 2px 5px 5px #000;
- }   
- .site-title {
-    margin: 2% 1%;
-    position: absolute;
-    width:50%;
-    font-size: 5vw;
-  color: Black;
-    padding: 1px 1px;
- text-shadow: 2px 5px 5px #fff;
- font-family: raleway;
- cursor:pointer;
- font-weight: bold;
-}
-.site-title:hover {
-    color: white;
-    text-shadow: 2px 5px 5px black;
-     /* Change color on hover */
-}
-
-
-.padi{
-    float: right;
-  margin: 4% 3%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
- } 
- .cmas{
-   float: right;
-    margin:4% 1%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
-}
-.search-container {
- position:relative;
-    margin-left: 15%;
-   margin-right: 15%;
-   margin-top: 3%;
-   margin-bottom: 1%;
-
-}
-.search-box {
-  height: 2vw;
-    width: 50vw;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-}
-.search-button {
-   
-    padding: 10px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-   
-}
-.search-button:hover {
-    background-color: #0056b3;
-}
-.wrappers{
-    
-    display: inline-block;
-    width:100%;
-}
-.wrappers  nav{box-shadow: 2px 5px 5px #000;
-   float: right;
-  align-content: center;
-    width: fit-content;
-    font-family: 'Roboto', sans-serif;
-    height: 50px;   
-    margin-top: -30%;
-    color: rgb(6, 6, 143);
-    text-shadow: 2px 5px 5px black;
-    background-color:rgba(0, 251, 255, 0.777);
-     }
-.wrappers nav ul{    list-style-type: none;
-    float: right;
-    display: flex;
-    }
-
-.wrappers nav ul li{
-  position: relative;
-float: right;
-line-height:80px;
-width: 200px;
-line-height: 10px;
-text-align: center;
-border-left:1px solid #fff ;
-cursor: pointer;
-transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-
-}
-.wrappers nav ul li a{   font-size: 1.3em; 
-position: relative;
-text-transform: uppercase;
-padding: 10px 10px;
-font-weight: bold;
-display: block;
-cursor: pointer;
-color: rgb(6, 6, 143);
-text-shadow: 2px 5px 5px black;
-
-}
-.wrappers nav ul li:hover{
-    opacity: #fff;
-}
-.wrappers nav ul li a:hover{
-    color:#fff;
-}
-.wrappers nav ul ul{
-    display: none;
-    height: auto;
-    text-align: center;
-    position:absolute;
-    margin-top:5%;  
-    width:auto;
-    color: rgb(6, 6, 143);
-text-shadow: 2px 5px 5px black;
-background-color:rgba(0, 251, 255, 0.777);
-
-}
-.wrappers nav ul ul li{
-    height: 50px;
-    line-height: 20px;
-  
-}
-
-.wrappers nav ul li:hover > ul{
-    display: block;
-    
-}     
-    #toggle{
-        display: none;
-    }
-    .checkbtn{
-        display: none;
-    }
-    h1{
-        margin-top:20%;
+        margin-left: 3%;
+        margin-top:2%;
+            font-size: 2em;
+            color:black;
+        } 
+    .services h3{
+        font-family: Playfair Display;
         text-align: center;
         position:relative;
-        margin-left: 10vw;
-        margin-right: 10vw;
-            width:80vw;
-            font-size: 4vw;
-            color: white;
-         text-shadow: 2px 5px 5px black;
-         font-weight: bold;
-
-         font-family: Playfair Display;
-         overflow: hidden; /* Ensures the content is not revealed until the animation */
-         border-right: .15em solid white; /* The typwriter cursor */
-         white-space: nowrap; /* Keeps the content on a single line */
-         letter-spacing: .09 em; /* Adjust as needed */
-         animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-     }
-     
-     /* The typing effect */
-     @keyframes typing {
-         from { width: 0 }
-         to { width: 100% }
-     }
-     
-     /* The typewriter cursor effect */
-     @keyframes blink-caret {
-         from, to { border-color: transparent }
-         50% { border-color: white; }
-     }
+        margin-left: 3%;
+        margin-top:2%;
+            font-size: 2vw;
+            color:black;
     }
-    @media (max-width:725px){
-        .contactus{
-            margin-top: 35%;
-            position: flex;
-            margin-left: 80%;
-            border: 3px;
-            border-radius: 50%;
-            width: 13%;
-            height:auto;
-            background-size: 100%;
-            box-shadow: 2px 5px 5px black;
-        }.contactus:hover{
-            opacity: 0.5;
+        .boatcon{
+            text-align: center;
+            margin-left: 40%;
+    height: auto;
+    width: 20%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
         }
-        header {
-            width: 100%;
-            height: 80vw;
-            background-image: url('header.jpg');
+        .boat{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+        .vehiclecon{   text-align: center;
+    height: auto;
+    width: 33%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .vehicle{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+        .roomcon{ text-align: center;
+            margin-left: 33%;
+    height: auto;
+    width: 30%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .room{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+.diving{
+    position:flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    width:70%;
+    height:auto; 
+}
+.course{
+    position:flex;
+    margin-top: 1%;
+    width:100%;
+    height:auto;
+}
+
+.services {   background-image:url('services.jpg');
+background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;}
+   .faq{
+    background-image:url('newport.jpg');
+background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+   }        
+    .faq div{margin-left: 25%;
+        margin-top: 1%;
+        width: 50%;
+        background:rgba(249, 253, 253, 0.638);
+    }
+    .faq p{
+        margin-left: 5%;
+ text-align: justify;
+        width: 90%;
+    color: black;
+    font-family: sans-serif;
+       font-weight:bold;
+        font-size:1.1em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+    }
+    .blog{
+        background-image:url('blog.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            background-attachment: fixed;
             box-shadow: 2px 5px 5px #000;
-            border-radius: 1%;
-        animation: float 3s infinite ease-in-out;
-            }
-            @keyframes float {
-                0% {
-                    transform: translateY(0);
-                }
-                50% {
-                    transform: translateY(-10px);
-                }
-                100% {
-                    transform: translateY(0);
-                }
-            }
-
-.my-logo{margin-top:3%;
-    margin-left: 3%;
-    position:relative;
-    border: 20px;
-    border-radius: 100%;
-    width: 10%;
-    height:auto;
-    background-image: url(logo.jpg);
-    background-size: 100%;
-    box-shadow: 2px 5px 5px #000;
- }   
- .site-title {
-    margin: 2% 1%;
-    position: absolute;
-    width:50%;
-    font-size: 5vw;
-  color: Black;
-    padding: 1px 1px;
- text-shadow: 2px 5px 5px #fff;
- font-family: raleway;
- cursor:pointer;
- font-weight: bold;
-}
-.site-title:hover {
-    color: white;
-    text-shadow: 2px 5px 5px black;
-     /* Change color on hover */
-}
-
-
-.padi{
-  margin: 5% 3%;
-  float: right;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
- } 
- .cmas{
-   float: right;
-    margin:5% 1%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
-}
-.search-container {
-  margin-left: 15%;
-   float: right;
-   
-}
-.search-box {
-  height: 2vw;
-    width: 50vw;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-}
-.search-button {
-    padding: 5px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-   
-}
-.search-button:hover {
-    background-color: #0056b3;
-} 
-.wrappers {
-    position:absolute;
-    margin-top: 7%;
-    margin-left: 2%;
-}
-.wrappers div{
-    display: block;
-    position: relative;
-    
-}
-
-label{
-    font-size: 2.3em;
-    height: 3px;
-    line-height: 3px;
-    text-align: center;
-    cursor: pointer;
-    transition: .5s ease;
-}
-.wrapper div label:hover{
-    background-color: white;
-}
-input[type=checkbox]{
-    display: none;
-}
-.wrappers nav{
-    position: absolute;
-    top:10px;
-    width: 0;
-      height: 50vh;   
-      transition: .5s ease;
-      overflow: hidden;
-       }
-       .checkbtn{
-    margin-top: 10px;
-}
-input[type=checkbox]:checked~nav{
-    width:200px;
-}
-.wrappers nav ul li {
-    margin-top: 1%;
-}
-.wrappers nav ul li a{  
-   display: flex;
-    padding: 1px;
-    border: none;
-    background: none;
-    font-size: 1em;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px 10px;
-    height: 20px;
-    width:100px;
-    margin: 0;
-    margin-left: 10%;
-    font-weight: bold;
-    cursor: pointer;
-    color: rgb(6, 6, 143);
-    text-shadow: 2px 5px 5px black;
-    background-color:rgba(0, 251, 255, 0.777);
+            padding: 1% 1%;
+            padding-bottom: 3%;
+           
     }
-  .wrappers nav ul li a:hover{
-      color:#fff;
-  }
-  .wrappers nav ul ul{
-    display: none;
-    height: auto;
-    background:none;
-    position:absolute;
-    padding: 1px;
-}
-.wrappers nav ul ul li{
-    height: auto;
-    line-height: 10px;
-}
-.wrappers nav ul li:hover > ul{
-    display: block;   
-}   
-h1{
-    margin-top:25%;
-    text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-        width:80vw;
-        font-size: 4vw;
+    .blog h2{
         color: white;
-        text-shadow: 2px 5px 5px black;
-        font-weight: bold;
-position: absolute;
+    }
+    .article{ margin-left: 25%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 50%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+            }
+            .article p{
+                margin-top: 1%;
+                font-size: 1.2em;
+            }
 
-font-family: Playfair Display;
-overflow: hidden; /* Ensures the content is not revealed until the animation */
-border-right: .15em solid white; /* The typwriter cursor */
-white-space: nowrap; /* Keeps the content on a single line */
-letter-spacing: .09em; /* Adjust as needed */
-animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+            .footer-container {
+                margin-left: 25%;
+                width:50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-/* The typing effect */
-@keyframes typing {
-from { width: 0 }
-to { width: 100% }
+.contact-info, .quick-links {
+    width: 30%;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-from, to { border-color: transparent }
-50% { border-color: white; }
+
+.quick-links ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
 }
 
+.quick-links ul li {
+    margin: 5px 0;
 }
-    @media (max-width:325px){
-        .contactus{
-            margin-top: 35%;
-            position: flex;
-            margin-left: 80%;
-            border: 3px;
-            border-radius: 50%;
-            width: 10%;
-            height:auto;
-            background-size: 100%;
-            box-shadow: 2px 5px 5px black;
-        }.contactus:hover{
-            opacity: 0.5;
-        }
-        header {
-            width: 100%;
-            height: 80vw;
-            background-image: url('header.jpg');
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+    width: 100%;
+}
+}
+@media (min-width:325px) and (max-width:725px){
+    .about{
+        background-image:url('aboutback.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            background-attachment: fixed;
             box-shadow: 2px 5px 5px #000;
-            border-radius: 1%;
-        animation: float 3s infinite ease-in-out;
+            padding: 1% 1%;
+             
+    }
+
+    .container{ margin-left: 10%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 80%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+ 
+    }
+   
+.container p{
+    color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1em;
+        letter-spacing:-.5px;
+    word-spacing: -1px;
+   
+}
+.scubadiving{
+        background-image:url('thresher.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+           
+    }
+.scubadive{
+    display: inline-block;
+}
+.group{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.dive{
+    margin-left: 20%;
+        padding: 2% 2%;
+
+    height: auto;
+    width: 60%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        padding-bottom:1% ;
+}
+.left{ margin-left: 2%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 96%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+    animation: wave 3s ease-in;
             }
-            @keyframes float {
+            @keyframes wave {
                 0% {
-                    transform: translateY(0);
+                    transform: translateX(0);
                 }
                 50% {
-                    transform: translateY(-10px);
+                    transform: translateX(80px);
                 }
                 100% {
-                    transform: translateY(0);
+                    transform: translateX(0);
                 }
+    }
+    .left p{
+        color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+   
+}
+.right{ margin-left: 2%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 96%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+    animation: wave2 3s ease-in;
+            }
+            @keyframes wave2 {
+                0% {
+                    transform: translateX(0);
+                }
+                50% {
+                    transform: translateX(-80px);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+    }
+   
+    .right p{
+    color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+   
+}
+h4{font-family: Playfair Display;
+        text-align: center;
+        position:relative;
+        margin-left: 3%;
+        margin-top:2%;
+            font-size: 1.2em;
+            color:black;
+        }
+ h2{ position: relative;
+    width:100vw;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1%;
+    color: navy;
+    opacity: 1;
+    text-shadow: 2px 5px 5px rgb(7, 223, 252);
+    font-family: Playfair Display;
+ }
+
+    h3{font-family: Playfair Display;
+        text-align: center;
+        position:relative;
+        margin-left: 3%;
+        margin-top:2%;
+            font-size: 4.5vw;
+            color:black;
+        } 
+        .boatcon{
+            text-align: center;
+            margin-left: 35%;
+    height: auto;
+    width: 40%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .boat{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+        .vehiclecon{   text-align: center;
+    height: auto;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .vehicle{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+        .roomcon{ text-align: center;
+            margin-left: 2%;
+    height: auto;
+    width: 48%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .room{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+.diving{
+    position:flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    width:70%;
+    height:auto; 
+}
+.course{
+    position:flex;
+    margin-top: 1%;
+    width:100%;
+    height:auto;
+}
+
+.services {   background-image:url('services.jpg');
+background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;}
+   .faq{
+    background-image:url('newport.jpg');
+background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+   }        
+    .faq div{margin-left: 13%;
+        margin-right: 5%;
+        margin-top: 1%;
+        width: 80%;
+        background:rgba(249, 253, 253, 0.638);
+    }
+    .faq p{
+        margin-left: 5%;
+ text-align: justify;
+        width: 90%;
+    color: black;
+    font-family: sans-serif;
+       font-weight:bold;
+        font-size:1em;
+        letter-spacing:-.8px;
+    word-spacing: -.8px;
+    }
+    .blog{
+        background-image:url('blog.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+           
+    }
+    .blog h2{
+        color: white;
+    }
+    .article{ margin-left: 15%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 80%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+            }
+            .article p{
+                margin-top: 1%;
+                font-size: 1em; letter-spacing:-1px;
+                word-spacing: -3px;
             }
 
-.my-logo{margin-top:3%;
-    margin-left: 3%;
-    position:relative;
-    border: 20px;
-    border-radius: 100%;
-    width: 10%;
-    height:auto;
-    background-image: url(logo.jpg);
-    background-size: 100%;
-    box-shadow: 2px 5px 5px #000;
- }   
- .site-title {
-    margin: 2% 1%;
-    position: absolute;
-    width:50%;
-    font-size: 5vw;
-  color: Black;
-    padding: 1px 1px;
- text-shadow: 2px 5px 5px #fff;
- font-family: raleway;
- cursor:pointer;
- font-weight: bold;
-}
-.site-title:hover {
-    color: white;
-    text-shadow: 2px 5px 5px black;
-     /* Change color on hover */
-}
-
-
-.padi{
-  margin: 5% 3%;
-  float: right;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
- } 
- .cmas{
-   float: right;
-    margin:5% 1%;
-    position: relative;
-    border: 3px;
-    border-radius: 100%;
-    width: 7%;
-    height:auto;
-    background-size: 100%;
-    box-shadow: 2px 5px 5px black;
-}
-.search-container {
-  margin-left: 15%;
-   float: right;
-   
-}
-.search-box {
-  height: 2vw;
-    width: 50vw;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-}
-.search-button {
-    padding: 5px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-   
-}
-.search-button:hover {
-    background-color: #0056b3;
-} 
-.wrappers {
-    position:absolute;
-    margin-top: 7%;
-    margin-left: 2%;
-}
-.wrappers div{
-    display: block;
-    position: relative;
-    
-}
-
-label{
-    font-size: 2.3em;
-    height: 3px;
-    line-height: 3px;
+            .footer-container {
+                width:50%;
+    display: flex;
     text-align: center;
-    cursor: pointer;
-    transition: .5s ease;
+    justify-content: space-between;
+    padding: 20px;
 }
-.wrapper div label:hover{
-    background-color: white;
+
+.contact-info, .quick-links {
+    width: 100%;
 }
-input[type=checkbox]{
-    display: none;
+
+
+.quick-links ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
 }
-.wrappers nav{
-    position: absolute;
-    top:10px;
-    width: 0;
-      height: 50vh;   
-      transition: .5s ease;
-      overflow: hidden;
-       }
-       .checkbtn{
-    margin-top: 10px;
+
+.quick-links ul li {
+    margin: 5px 0;
 }
-input[type=checkbox]:checked~nav{
-    width:200px;
-}
-.wrappers nav ul li {
-    margin-top: 1%;
-}
-.wrappers nav ul li a{  
-   display: flex;
-    padding: 1px;
-    border: none;
-    background: none;
-    font-size: 1em;
+
+.quick-links ul li a {
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px 10px;
-    height: 20px;
-    width:100px;
-    margin: 0;
-    margin-left: 10%;
-    font-weight: bold;
-    cursor: pointer;
-    color: rgb(6, 6, 143);
-    text-shadow: 2px 5px 5px black;
-    background-color:rgba(0, 251, 255, 0.777);
-    }
-  .wrappers nav ul li a:hover{
-      color:#fff;
-  }
-  .wrappers nav ul ul{
-    display: none;
-    height: auto;
-    background:none;
-    position:absolute;
-    padding: 1px;
+    color: #000;
 }
-.wrappers nav ul ul li{
-    height: auto;
-    line-height: 10px;
+
+.quick-links ul li a:hover {
+    text-decoration: underline;
 }
-.wrappers nav ul li:hover > ul{
-    display: block;   
-}   
-h1{
-    margin-top:25%;
+
+.copyright {
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-        width:80vw;
-        font-size: 4vw;
+    padding: 10px;
+    background-color: #e0e0e0;
+    width: 100%;
+}
+
+}
+
+@media (max-width:325px){
+    .about{
+        background-image:url('aboutback.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+             
+    }
+
+    .container{ margin-left: 10%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 80%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+ 
+    }
+   
+.container p{
+    color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1em;
+        letter-spacing:-.5px;
+    word-spacing: -1px;
+   
+}
+.scubadiving{
+        background-image:url('thresher.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+           
+    }
+.scubadive{
+    display: inline-block;
+}
+.group{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.dive{
+    margin-left: 20%;
+        padding: 2% 2%;
+
+    height: auto;
+    width: 60%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        padding-bottom:1% ;
+}
+.left{ margin-left: 2%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 96%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+    animation: wave 3s ease-in;
+            }
+            @keyframes wave {
+                0% {
+                    transform: translateX(0);
+                }
+                50% {
+                    transform: translateX(80px);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+    }
+    .left p{
+        color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+   
+}
+.right{ margin-left: 2%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 96%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+    animation: wave2 3s ease-in;
+            }
+            @keyframes wave2 {
+                0% {
+                    transform: translateX(0);
+                }
+                50% {
+                    transform: translateX(-80px);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+    }
+   
+    .right p{
+    color: black;
+    font-family: sans-serif;
+       font-weight: 200;
+        font-size:1em;
+        letter-spacing:-.5px;
+    word-spacing: .5px;
+   
+}
+h4{font-family: Playfair Display;
+        text-align: center;
+        position:relative;
+        margin-left: 3%;
+        margin-top:2%;
+            font-size: 1.2em;
+            color:black;
+        }
+ h2{ position: relative;
+    width:100vw;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1%;
+    color: navy;
+    opacity: 1;
+    text-shadow: 2px 5px 5px rgb(7, 223, 252);
+    font-family: Playfair Display;
+ }
+
+    h3{font-family: Playfair Display;
+        text-align: center;
+        position:relative;
+        margin-left: 3%;
+        margin-top:2%;
+            font-size: 4.5vw;
+            color:black;
+        } 
+        .boatcon{
+            text-align: center;
+            margin-left: 35%;
+    height: auto;
+    width: 40%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .boat{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+        .vehiclecon{   text-align: center;
+    height: auto;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .vehicle{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+        .roomcon{ text-align: center;
+            margin-left: 2%;
+    height: auto;
+    width: 48%;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    position: flex;
+   background:rgba(249, 253, 253, 0.44);
+        }
+        .room{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+        }
+.diving{
+    position:flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    width:70%;
+    height:auto; 
+}
+.course{
+    position:flex;
+    margin-top: 1%;
+    width:100%;
+    height:auto;
+}
+
+.services {   background-image:url('services.jpg');
+background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;}
+   .faq{
+    background-image:url('newport.jpg');
+background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+   }        
+    .faq div{margin-left: 13%;
+        margin-right: 5%;
+        margin-top: 1%;
+        width: 80%;
+        background:rgba(249, 253, 253, 0.638);
+    }
+    .faq p{
+        margin-left: 5%;
+ text-align: justify;
+        width: 90%;
+    color: black;
+    font-family: sans-serif;
+       font-weight:bold;
+        font-size:1em;
+        letter-spacing:-.8px;
+    word-spacing: -.8px;
+    }
+    .blog{
+        background-image:url('blog.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 2px 5px 5px #000;
+            padding: 1% 1%;
+            padding-bottom: 3%;
+           
+    }
+    .blog h2{
         color: white;
-        text-shadow: 2px 5px 5px black;
-        font-weight: bold;
-position: absolute;
+    }
+    .article{ margin-left: 15%;
+    margin-right: 2%;
+        padding: 0 2%;
+    background:rgba(249, 253, 253, 0.44);
+    height: auto;
+    width: 80%;
+    box-sizing: border-box;
+    align-self: center;
+    position: flex;
+    text-align: justify;
+    padding-bottom:1% ;
+            }
+            .article p{
+                margin-top: 1%;
+                font-size: 1em; letter-spacing:-1px;
+                word-spacing: -3px;
+            }
 
-font-family: Playfair Display;
-overflow: hidden; /* Ensures the content is not revealed until the animation */
-border-right: .15em solid white; /* The typwriter cursor */
-white-space: nowrap; /* Keeps the content on a single line */
-letter-spacing: .09em; /* Adjust as needed */
-animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+            .footer-container {
+                width:50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-/* The typing effect */
-@keyframes typing {
-from { width: 0 }
-to { width: 100% }
+.contact-info, .quick-links {
+    width: 100%;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-from, to { border-color: transparent }
-50% { border-color: white; }
+
+.quick-links ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin: 5px 0;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+    width: 100%;
 }
 
 }
