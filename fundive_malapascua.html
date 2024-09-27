@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,30 +5,48 @@
         <link rel="shortcut icon" type="x-icon" href="logo.jpg">
         <meta http-equiv="X-UA-Compatible" content=IE-edge>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="footer.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script src="script.js" defer></script>
+        <script src="search.js" defer></script>
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Dan's Dive",
+    "alternateName": ["Dive Shop", "Malapascua Diving", "Scuba Diving"],
+  "url": ["https://dansdive.com","http://dansdive.com", "https://www.dansdive.com", "http://www.dansdive.com"],
+  "logo": "logo.jpg"
+}
+</script>
         <title>Dan's Dive | Scuba Diving - Malapascua Island</title>
 </head>
 
-   <body>
-
-    <div class="header">
-        <header> 
-            <div class="navs">
-            <div class="my-logo"></div>
-           
-            <div class="padi"></div>
-            <h2>PADI</h2>
-            <div class="cmas"></div>
+<header>  
+           <div class="header-content">
+            <img src="touristlogo.jpg" class="my-logo" alt="Scuba Diving Malapascua Island">
+            <a href="https://dansdive.com/index.html" class="site-title">Scuba Diving Malapascua Island</a>
+            
+            <img src="padi.jpg" class="padi" alt="Padi Diving Malapascua Island">
+            <img src="cmas.jpg" class="cmas" alt="Cmas Diving Malapascua Island">
+            <div class="search-container">
+                
+                <input type="text" id="searchInput" class="search-box" placeholder="Search...">
+                <button type="submit" id="searchButton"class="search-button">Search</button>
           
-    </div> <div class="wrappers">
-       <a href="https://dansdive.com/contactus" class="active">Contact Us</a>
-        <a  href="https://dansdive.com/index.html" class="contactus">HOME</a>
+         <div id="resultBar"> </div>
+            </div>
+            <h1> THRESHER SHARKS AND BEYOND
+                <br>  A FUN DIVING GUIDE </h1> 
+                
+            <div class="wrappers">
             <div>
                 <input type="checkbox" id="toggle">
             <label for="toggle" class="checkbtn">&#9776;</label>
             <nav>
                 <ul>
+                    
                     <li><a href="https://dansdive.com/dansdive_malapascua">About</a></li>
                          <li><a href="#">Dive Package</a>
                                 <ul>
@@ -44,274 +61,349 @@
                                 <li><a href="https://dansdive.com/accommodation_malapascua"class=>Accomodation</a></li>
                                 </ul>  
                         </li>
-               
-                     <li><a href="https://dansdive.com/malapascua_dive_gallery">Gallery </a></li>
-                    <li><a href="https://web.facebook.com/profile.php?id=61562692757324">Messenger</a></li>
-                    <li><a href="https://dansdive.com/dive_booking_malapascua">BOOK NOW</a></li>
+                        <li><a href="#">Learn More</a>
+                            <ul>
+                                <li><a href="https://dansdive.com/malapascua_dive_faq's">FAQ's</a></li>
+                                <li><a href="https://dansdive.com/malapascua_dive_blog">Blog</a></li>
+                                </ul>
+                        </li>
                 </ul>
     </nav>
-    </div></div>  </header>  </div>
-<div class="wholebody">
-<h3>FUNDIVE SITES</h3>
-<div class="containers" >
-    <div class="image-containers">
-        <h4>MONAD AND KIMUD SHOAL</h4>
-        <p>Monad Shoal, just off the coast of Malapascua Island in the Philippines, is revered by divers for its captivating thresher shark encounters. Diving enthusiasts flock to this submerged seamount, where thresher sharks visit cleaning stations on the sandy seabed during the early morning hours. Here, amidst the tranquil waters of the Visayan Sea, divers are treated to the rare spectacle of observing these majestic creatures up close in their natural habitat, an experience that leaves an indelible mark on the soul.
-           <br> <br>Protected as a marine sanctuary, Monad Shoal embodies a commitment to conservation and sustainable diving practices. Dive operators and local authorities collaborate to ensure that diving activities are conducted responsibly, preserving the rich biodiversity of this underwater paradise for future generations to cherish.
-           <br><br>Kimud Shoal, a submerged island near Malapascua Island in the Philippines, offers divers an exciting encounter with its diverse marine life and captivating underwater terrain. With its peak lying between depths of 12 to 16 meters and steep sides plunging to over 200 meters, the shoal presents an impressive sight to behold. Its main draw is the school of hammerhead sharks, numbering up to 200 individuals, which can often be observed between December and May, and sporadically throughout the year.
-            <br><br>Situated close to Monad Shoal in the same trench, Kimud Shoal is frequented by thresher sharks, devil rays, and occasional turtle visitors. The top of the sunken island is adorned with abundant hard coral formations, providing ample hiding spots for moray eels, while the soft coral growth covers its sides. Among the coral reefs, numerous species of shrimp and unique nudibranchs can be discovered. The east side of Kimud Shoal is particularly noteworthy for its intriguing rock formations and overhangs, offering divers an enthralling exploration. With the drop-off providing opportunities to encounter pelagic species such as sharks, rays, and tuna, every dive at Kimud Shoal promises an exhilarating underwater adventure.
-        </p>
-        <br>
-        <h1>GATO ISLAND</h1>
-        <div class="images"><img src="fun1.jpg" alt="Shark Dive Dansdive Malapascua"></div>
-        <p>Gato Island, located near Malapascua Island in the Philippines, is a renowned dive destination characterized by its stunning coral reefs and diverse marine life. The island's unique underwater tunnel, known as "The Cave," offers an exhilarating experience for divers as they navigate through its colorful coral-adorned walls. Marine enthusiasts can encounter a plethora of marine species within the tunnel, including lionfish, nudibranchs, and moray eels.
-            <br><br>Aside from The Cave, Gato Island boasts a variety of dive sites showcasing its vibrant marine ecosystem. Divers can explore coral gardens, swim-throughs, and underwater rock formations teeming with reef fish, rays, and occasional sightings of larger pelagic species like whitetip and blacktip sharks. The island's marine sanctuary underscores its commitment to conservation and sustainable diving practices.
-            <br><br>Dive operators and local authorities collaborate to ensure that diving activities at Gato Island are conducted responsibly, minimizing disturbances to the marine environment. Visitors can witness the beauty and importance of preserving these underwater habitats for future generations. With its captivating dive sites and dedication to conservation, Gato Island offers an unforgettable underwater adventure for divers exploring the Visayan Sea.
-        </p>
-        <br>
-        <h6>SUNSET OR NIGHT DIVE</h6>
-        <div class="images"><img src="fun5.jpg" alt="Shark Dive Dansdive Malapascua"></div>
-        <p>A sunset or night dive at Malapascua Island offers a unique opportunity to witness the underwater world come alive in a whole new light. As the sun dips below the horizon, divers embark on an exhilarating journey into the depths, where nocturnal marine creatures emerge from their hiding places. The transition from day to night brings about a magical transformation, with the colors of the reef appearing more vibrant under the glow of dive lights.
-            <br><br>During a sunset or night dive, divers can encounter a diverse array of marine life, including octopuses, cuttlefish, crabs, and shrimp, as they venture out in search of food. The darkness of the ocean adds an element of mystery and excitement to the dive, as divers use their torches to explore the hidden corners of the reef. The nocturnal activity on display during these dives offers a fascinating glimpse into the underwater world's nighttime activities.
-            <br><br>As the dive progresses, the mesmerizing sight of bioluminescent organisms adds to the enchantment of the experience, creating a surreal underwater spectacle. The tranquility of the nighttime ocean, combined with the thrill of encountering unique marine life, makes sunset or night dives at Malapascua Island an unforgettable adventure for divers seeking to explore the mysteries of the deep after dark.
-        </p>
-        <br>
-        <div class="night">LOCAL DIVES AND OTHERS</div>
-        <div class="images"><img src="local1.jpg" alt="Shark Dive Dansdive Malapascua"></div>
-        <p>
-            Malapascua Island boasts an abundance of captivating local dive sites, each offering its own unique underwater landscapes and marine encounters.
-            With its rich biodiversity and world-class dive sites, Malapascua Island promises unforgettable underwater adventures for diving enthusiasts.
-        </p>
     </div>
-<div class="popup-images">
-    <span>&times;</span>
-        <img src="fun10.jpg" alt="">
-</div>
-</div>
-<script>
-    document.querySelectorAll('.image-containers img').forEach(image =>{
-        image.onclick = () =>{
-        document.querySelector('.popup-images').style.display = 'block';
-        document.querySelector('.popup-images img').src = image.getAttribute('src');
-    }
-    });
-    document.querySelector('.popup-images span').onclick = () =>{
-    document.querySelector('.popup-images').style.display = 'none';
-    }
- </script>
- </div>
+    
+</div> </div> 
+<a href="https://dansdive.com/contactus" >
+    <img src="contactus.jpg" class="contactus"alt="Description of Image">
+  </a> 
+</header>  <br>
+<body>
+    <div class="about">
+        <h2>Fun Diving in Malapascua Island</h2>
+      
+        <div id="fundive"class="container">
+            <a href="https://dansdive.com/dansdive_malapascua#malapascua-island">
+            <img src="diving.jpg" class="dive" alt="Shark Dive Dansdive Malapascua">
+        </a><h3>
+            Exploring Every Dive Site</h3>
+                <p> Malapascua Island, located off the northern coast of Cebu in the Philippines, is a diver’s paradise renowned for its diverse marine life and stunning underwater landscapes. This small island offers an unforgettable diving experience, attracting enthusiasts from around the world. Here’s a comprehensive guide to fun diving in Malapascua, detailing each dive site and what makes them special.
+                </p>
+                <br><br>
+            <h3>Monad Shoal
+            </h3>      
+                <p>
+                    The most famous dive site in Malapascua, known globally for its regular sightings of thresher sharks. These majestic creatures, with their long, whip-like tails, come to this underwater plateau for cleaning at dawn. Divers need to start early, often before sunrise, to catch a glimpse of these elusive sharks. The site also features manta rays, devil rays, and a variety of pelagic fish.
+               <br>Depth: 20-28 meters
+               <br>Experience Level: Advanced Open Water (AOW) or higher
+               <br>Marine Life: Thresher sharks, manta rays, devil rays, barracudas, lionfish, batfish, cuttlefish, mantis shrimp, moray eels, nudibranchs, octopuses, pygmy seahorses, scorpionfish, stonefish
+                </p>
+                <br><br>
+                <h3>
+                    Kimud Shoal
+                </h3>
+                <p>
+                    Another hotspot for shark enthusiasts. This site offers the chance to see hammerhead sharks, especially between December and April. The dive site is a smaller plateau compared to Monad Shoal but provides a thrilling experience with its steep drop-offs and abundant marine life.
+                <br>Depth: 12-40 meters
+                <br>Experience Level: AOW or higher
+                <br>Marine Life: Hammerhead sharks, thresher sharks, devil rays, yellowfin tuna, barracudas, unicorn fish
+                </p>
+                <h3>
+                    Gato Island
+                </h3>
+                <p>
+                    A marine reserve and sanctuary, famous for its underwater tunnels and caverns. This site is perfect for those who enjoy exploring unique underwater topography. Divers can encounter white-tip reef sharks, sea snakes, and a variety of cephalopods. The island is also known for its vibrant macro life, making it a favorite among underwater photographers.
+                <br>Depth: 10-30 meters
+                <br>Experience Level: Open Water (OW) or higher
+                <br>Marine Life: White-tip reef sharks, sea snakes, cuttlefish, nudibranchs, pygmy seahorses, frogfish, octopuses
+                </p>
+                <h3>Dona Marilyn Wreck</h3>
+                <p>
+A sunken ferry that went down during a typhoon in 1988. This site offers an exciting dive for those interested in wreck diving. The wreck has become an artificial reef, attracting a diverse array of marine life. Divers can explore the remains of the ship, which is now home to schools of fish and various invertebrates.
+
+<br>Depth: 18-32 meters
+<br>Experience Level: AOW or higher
+<br>Marine Life: Schools of fish, lionfish, scorpionfish, nudibranchs, moray eels
+</p>
+
+<h3>Lighthouse Reef</h3>
+<p>Known for its evening dives, where divers can witness the mating dance of the mandarin fish. This site is shallow and perfect for night dives, offering a unique experience as the reef comes alive with nocturnal creatures.
+
+<br>Depth: 5-12 meters
+<br>Experience Level: OW or higher
+<br>Marine Life: Mandarin fish, seahorses, pipefish, nudibranchs, crabs, shrimps
+</p>
+<h3>Lapus Lapus</h3>
+<p>
+Located on the northwest corner of Malapascua and features a rock outcrop surrounded by vibrant coral gardens. This site is ideal for divers of all levels and offers a mix of macro and pelagic species.
+
+<br>Depth: 5-20 meters
+<br>Experience Level: OW or higher
+<br>Marine Life: Frogfish, nudibranchs, scorpionfish, lionfish, schools of jacks and barracudas
+</p>
+<h3>Deep Rock</h3>
+<p>
+This dramatic underwater landscape, featuring steep walls and overhangs. This site is great for spotting larger pelagic species and offers excellent visibility.
+
+<br>Depth: 10-30 meters
+<br>Experience Level: OW or higher
+<br>Marine Life: Barracudas, trevallies, groupers, snappers, nudibranchs
+</p>
+
+<h3>Kalanggaman Island</h3>
+<p>A day trip away from Malapascua and offers pristine diving conditions with crystal-clear waters and vibrant coral reefs. The island is famous for its long sandbar and is a perfect spot for both diving and snorkeling.
+
+<br>Depth: 5-30 meters
+<br>Experience Level: OW or higher
+<br>Marine Life: Turtles, reef sharks, barracudas, jacks, nudibranchs
+</p>
+<h3>Nunez Shoal</h3>
+<p>A less frequented dive site but offers a unique diving experience with its deep walls and abundant marine life. This site is ideal for advanced divers looking for a more challenging dive.
+
+<br>Depth: 12-40 meters
+<br>Experience Level: AOW or higher
+<br>Marine Life: Sharks, rays, tuna, barracudas, nudibranchs
+</p>
+<p>
+Malapascua Island is a must-visit destination for diving enthusiasts. Its unique combination of thrilling shark encounters, rich marine biodiversity, and diverse dive sites ensures an unforgettable experience. Whether you’re an avid diver or simply looking for a tropical getaway, Malapascua Island promises adventure and tranquility in equal measure.
+</p>
+            </div>  
+    </div>
+    <br>
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <h4>Contact Information</h4>
+                <p>maryjoy.padiz1@gmail.com</p>
+                <p>(+63) 991-643-6458</p>
+                <p>Fermina Maya Daanbantayan, Cebu 6013 Philippines</p>
+            </div>
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="https://dansdive.com/dansdive_malapascua">About</a></li>
+                    <li><a href="https://dansdive.com/fundive_malapascua">Fundive</a></li>
+                    <li><a href="https://dansdive.com/dive_course_malapascua">Course</a></li>
+                    <li><a href="https://dansdive.com/city_pickup_malapascua">Private Vehicle</a></li>
+                    <li><a href="https://dansdive.com/boat_pickup_malapascua">Private Boat</a></li>
+                    <li><a href="https://dansdive.com/accommodation_malapascua">Accommodation</a></li>
+                    <li><a href="https://dansdive.com/malapascua_dive_faq's">FAQ's</a></li>
+                    <li><a href="https://dansdive.com/malapascua_dive_blog">Blog</a></li>
+                    <li><a href="https://dansdive.com/contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2024 Scuba Diving Malapascua Island All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>
 <style>
 body{
-    width: 100vw;
-} 
-@media (min-width:481px){
-h3{margin-top: 1%;
-    width:100%;
-    text-align:center;
-    font-size: 2em;
-    position: flex;
-    color:navy;
-    height: auto;
-    font-family: 'Times New Roman', Times, serif;
+    max-width: 100vw;
+    align-content: center;
 }
-.containers{
-    background:rgb(110,255,255 );
-    min-height:190vw;
-    width: 100%;
-    box-sizing: border-box;
-    align-self: center;
-    position: flex;
-    padding: 3%;
-    text-align: justify;
-    font-size: 1.5em;
+@media (min-width:725px) {
 
-}
-h4{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-h1{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-h6{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-.night{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-    .container1 .popup-image img{
-        width:95%;
-    }
-
-.containers .image-containers .images{
-    margin-top: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: Times New Roman;
-    text-align: center;
-    height:auto;
-    width:30%;
-    overflow: hidden;
-    cursor:pointer;
-    display: inline-block;
-    
+.about{
+    background-image:url('aboutback.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 2px 5px 5px #000;
+        padding: 1% 1%;
+         
 }
 
-.containers .image-containers .images img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: .2s linear;
-}
-.containers .image-containers .images:hover img{
-    transform: scale(1.1);
-}
-.containers .popup-images{
-    position: fixed;
-    top:0; left:0;
-    background: rgba(0,0,0,.9);
-    height: 100%;
-    width: 100vw;
-    z-index:100;
-    display: none;
-}
-.containers .popup-images span{
-    position: absolute;
-    top: 0; right: 10px;
-    font-size: 60px;
-    font-weight: bolder;
-    color:#fff;
-    cursor: pointer;
-    z-index: 100;
-}
-.containers .popup-images img{
-    position: absolute;
-    top:50%; left:50%;
-    transform: translate(-50%, -50%);
-    border: 5px solid #fff;
-    max-width:50vw;
-    object-fit: cover;
-}}
-@media(width:100vw){
-    .containers .popup-images img{
-        width: 100%;
-        height: auto;
-    }
-}
-@media (max-width:480px){
-    h3{margin-top: 1%;
-    width:100%;
-    text-align:center;
-    font-size: 2em;
-    position: flex;
-    color:navy;
-    height: auto;
-    font-family: 'Times New Roman', Times, serif;
-}
-.containers{
-    background:rgb(110,255,255 );
-    min-height:190vw;
-    width: 100%;
-    box-sizing: border-box;
-    align-self: center;
-    position: flex;
-    padding: 3%;
-    text-align: justify;
-    font-size: 1.5em;
+.container{ margin-left: 10%;
+    padding: 0 2%;
+background:rgba(249, 253, 253, 0.44);
+height: auto;
+width: 80%;
+box-sizing: border-box;
+align-self: center;
+position: flex;
+text-align: justify;
+padding-bottom:1% ;
 
 }
-h4{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-h1{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-h6{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-.night{
-    position: flex;
-    text-align: center;
-    width:100%;
-    font-weight: bold;
-}
-    .container1 .popup-image img{
-        width:95%;
-    }
 
-.containers .image-containers .images{
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: Times New Roman;
-    text-align: center;
-    height:auto;
-    width:80%;
-    overflow: hidden;
-    cursor:pointer;
-    display: inline-block;
-    
+.container p{
+color: black;
+font-family: sans-serif;
+   font-weight: 200;
+    font-size:1.2em;
+    letter-spacing:-.5px;
+word-spacing: .5px;
+
 }
 
-.containers .image-containers .images img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: .2s linear;
+.dive{
+margin-left: 20%;
+    padding: 2% 2%;
+
+height: auto;
+width: 60%;
+box-sizing: border-box;
+align-self: center;
+position: flex;
+    padding-bottom:1% ;
 }
-.containers .image-containers .images:hover img{
-    transform: scale(1.1);
+h2{ position: relative;
+width:100vw;
+font-size: 5vw;
+text-align: center;
+margin-top: 1%;
+color: navy;
+opacity: 1;
+text-shadow: 2px 5px 5px rgb(7, 223, 252);
+font-family: Playfair Display;
 }
-.containers .popup-images{
-    position: fixed;
-    top:0; left:0;
-    background: rgba(0,0,0,.9);
-    height: 100%;
-    width: 100vw;
-    z-index:100;
-    display: none;
+
+h3{font-family: Playfair Display;
+    text-align: left;
+    position:relative;
+    margin-left: 3%;
+    margin-top:2%;
+        font-size: 2em;
+        color:black;
+    } 
 }
-.containers .popup-images span{
-    position: absolute;
-    top: 0; right: 10px;
-    font-size: 60px;
-    font-weight: bolder;
-    color:#fff;
-    cursor: pointer;
-    z-index: 100;
+
+
+@media (min-width:325px) and (max-width:725px){
+.about{
+    background-image:url('aboutback.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 2px 5px 5px #000;
+        padding: 1% 1%;
+         
 }
-.containers .popup-images img{
-    position: absolute;
-    top:50%; left:50%;
-    transform: translate(-50%, -50%);
-    border: 5px solid #fff;
-    width:100%;
-    object-fit: cover;
-}}
+
+.container{ margin-left: 10%;
+    padding: 0 2%;
+background:rgba(249, 253, 253, 0.44);
+height: auto;
+width: 80%;
+box-sizing: border-box;
+align-self: center;
+position: flex;
+text-align: justify;
+padding-bottom:1% ;
+
+}
+
+.container p{
+color: black;
+font-family: sans-serif;
+   font-weight: 200;
+    font-size:1em;
+    letter-spacing:-.5px;
+word-spacing: .5px;
+
+}
+
+.dive{
+margin-left: 20%;
+    padding: 2% 2%;
+
+height: auto;
+width: 60%;
+box-sizing: border-box;
+align-self: center;
+position: flex;
+    padding-bottom:1% ;
+}
+h2{ position: relative;
+width:100vw;
+font-size: 1.5em;
+text-align: center;
+margin-top: 1%;
+color: navy;
+opacity: 1;
+text-shadow: 2px 5px 5px rgb(7, 223, 252);
+font-family: Playfair Display;
+}
+
+h3{font-family: Playfair Display;
+    text-align: left;
+    position:relative;
+    margin-left: 3%;
+    margin-top:2%;
+        font-size: 1.2em;
+        color:black;
+    } 
+}
+@media (max-width:325px){
+.about{
+    background-image:url('aboutback.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 2px 5px 5px #000;
+        padding: 1% 1%;
+         
+}
+
+.container{ margin-left: 10%;
+    padding: 0 2%;
+background:rgba(249, 253, 253, 0.44);
+height: auto;
+width: 80%;
+box-sizing: border-box;
+align-self: center;
+position: flex;
+text-align: justify;
+padding-bottom:1% ;
+
+}
+
+.container p{
+color: black;
+font-family: sans-serif;
+   font-weight: 200;
+    font-size:1em;
+    letter-spacing:-.5px;
+word-spacing: .5px;
+
+}
+
+.dive{
+margin-left: 20%;
+    padding: 2% 2%;
+
+height: auto;
+width: 60%;
+box-sizing: border-box;
+align-self: center;
+position: flex;
+    padding-bottom:1% ;
+}
+h2{ position: relative;
+width:100vw;
+font-size: 1.5;
+text-align: center;
+margin-top: 1%;
+color: navy;
+opacity: 1;
+text-shadow: 2px 5px 5px rgb(7, 223, 252);
+font-family: Playfair Display;
+}
+
+h3{font-family: Playfair Display;
+    text-align: left;
+    position:relative;
+    margin-left: 3%;
+    margin-top:2%;
+        font-size: 1.2em;
+        color:black;
+    } 
+
+}
 </style>
