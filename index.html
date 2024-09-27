@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="header.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script src="script.js" defer></script>
+        <script src="search.js" defer></script>
         <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -29,8 +30,11 @@
             <img src="padi.jpg" class="padi" alt="Padi Diving Malapascua Island">
             <img src="cmas.jpg" class="cmas" alt="Cmas Diving Malapascua Island">
             <div class="search-container">
-                <input type="text" class="search-box" placeholder="Search...">
-                <button class="search-button">Search</button>
+                
+                <input type="text" id="searchInput" class="search-box" placeholder="Search...">
+                <button type="submit" id="searchButton"class="search-button">Search</button>
+          
+         <div id="resultBar"> </div>
             </div>
             <h1> WEBSITE IN PARTNERSHIP WITH
                 <br> PHILIPPINE TOURISM GUIDE </h1> 
