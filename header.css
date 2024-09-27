@@ -1,5 +1,7 @@
 *{ 
     padding:0;
+    padding-right:.4% ;
+    padding-left: .03%;
     margin: 0;
 text-decoration: none; 
 font-family: monospace;
@@ -7,10 +9,13 @@ list-style: none;
 max-width:100vw;}
 body{  margin: 0;
     padding: 0;
+    justify-content: center;
     width: 100%;
     height:auto;
     overflow-x: hidden;
 }
+
+
 .underwater {
     position: relative;
     width: 100%;
@@ -77,6 +82,7 @@ body{  margin: 0;
 
 
     @media (min-width:1025px){
+      
         .contactus{
             position: flex;
             float: right;
@@ -306,6 +312,7 @@ background-color:rgba(0, 251, 255, 0.777);
 }
     }
     @media (min-width:925px) and (max-width:1025px){
+        
         .contactus{
             position: flex;
             float: right;
@@ -534,6 +541,7 @@ background-color:rgba(0, 251, 255, 0.777);
     }
     
     @media (min-width:725px) and (max-width:925px){
+        
         .contactus{
             position: flex;
             float: right;
@@ -762,6 +770,7 @@ background-color:rgba(0, 251, 255, 0.777);
      }
     }
     @media (max-width:725px){
+       
         .contactus{
             margin-top: 35%;
             position: flex;
@@ -886,7 +895,7 @@ background-color:rgba(0, 251, 255, 0.777);
     
 }
 
-label{
+.checkbtn{
     font-size: 2.3em;
     height: 3px;
     line-height: 3px;
@@ -987,6 +996,13 @@ from, to { border-color: transparent }
 
 }
     @media (max-width:325px){
+        body{  margin: 0;
+            margin-left: 1.5%;
+            padding: 0;
+            width: 100%;
+            height:auto;
+            overflow-x: hidden;
+        }
         .contactus{
             margin-top: 35%;
             position: flex;
@@ -1111,7 +1127,7 @@ from, to { border-color: transparent }
     
 }
 
-label{
+.checkbtn{
     font-size: 2.3em;
     height: 3px;
     line-height: 3px;
