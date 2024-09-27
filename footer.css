@@ -80,8 +80,8 @@
     .footer-section p{
         text-align: justify;
         width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 20%;
+        margin-right: 30%;
     }
     .footer-section h4{
         text-align: center;
@@ -89,7 +89,7 @@
     .footer-section ul{
         width: 50%;
        text-align: justify;
-       margin-left: 40%;
+       margin-left: 30%;
        margin-right: 10%;
     }
     .footer-section h3{
