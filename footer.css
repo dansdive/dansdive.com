@@ -79,17 +79,17 @@
 
     .footer-section p{
         text-align: justify;
-        width: 50%;
-        margin-left: 20%;
-        margin-right: 30%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .footer-section h4{
         text-align: center;
     }
     .footer-section ul{
-        width: 50%;
+        width: 80%;
        text-align: justify;
-       margin-left: 30%;
+       margin-left: 10%;
        margin-right: 10%;
     }
     .footer-section h3{
