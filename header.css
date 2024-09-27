@@ -6,36 +6,6 @@ font-family: monospace;
 list-style: none;
 max-width:100vw;}
 
-#resultBar {
-    padding-left: 3%;
-    padding-right: 3%;
-    background-color: #fff;
-    display: none;
-    margin-top: 1%;
-    width: 65%;
-    padding-top:3%;
-    padding-bottom: 3%;
-    border: 1px solid #ccc;
-    height: 70px; /* Set a fixed height */
-    overflow-y: auto; /* Add vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal overflow */
-    text-align: justify;
-    font-size: 1.2em;
-    word-spacing: -.2em;
-    position: relative;
-    
-}
-.result-item {
-    display: block;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: blue;
-}
-.result-item:hover {
-    text-decoration: underline;
-}
-
-
     @media (min-width:1025px){
         .contactus{
             position: flex;
@@ -247,7 +217,7 @@ background-color:rgba(0, 251, 255, 0.777);
 
     font-family: Playfair Display;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em transparent; /* The typwriter cursor */
+    border-right: .15em solid white; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .09 em; /* Adjust as needed */
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
@@ -262,7 +232,7 @@ background-color:rgba(0, 251, 255, 0.777);
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: transparent; }
+    50% { border-color: white; }
 }
     }
     @media (min-width:925px) and (max-width:1025px){
@@ -474,7 +444,7 @@ background-color:rgba(0, 251, 255, 0.777);
 
            font-family: Playfair Display;
            overflow: hidden; /* Ensures the content is not revealed until the animation */
-           border-right: .15em transparent; /* The typwriter cursor */
+           border-right: .15em solid white; /* The typwriter cursor */
            white-space: nowrap; /* Keeps the content on a single line */
            letter-spacing: .09em; /* Adjust as needed */
            animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
@@ -489,7 +459,7 @@ background-color:rgba(0, 251, 255, 0.777);
        /* The typewriter cursor effect */
        @keyframes blink-caret {
            from, to { border-color: transparent }
-           50% { border-color: transparent; }
+           50% { border-color: white; }
        }
     }
     
@@ -703,7 +673,7 @@ background-color:rgba(0, 251, 255, 0.777);
 
          font-family: Playfair Display;
          overflow: hidden; /* Ensures the content is not revealed until the animation */
-         border-right: .15em transparent; /* The typwriter cursor */
+         border-right: .15em solid white; /* The typwriter cursor */
          white-space: nowrap; /* Keeps the content on a single line */
          letter-spacing: .09 em; /* Adjust as needed */
          animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
@@ -718,7 +688,7 @@ background-color:rgba(0, 251, 255, 0.777);
      /* The typewriter cursor effect */
      @keyframes blink-caret {
          from, to { border-color: transparent }
-         50% { border-color:transparent; }
+         50% { border-color: white; }
      }
     }
     @media (max-width:725px){
@@ -914,7 +884,7 @@ input[type=checkbox]:checked~nav{
     display: block;   
 }   
 h1{
-    margin-top:35%;
+    margin-top:25%;
     text-align: center;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -927,7 +897,7 @@ position: absolute;
 
 font-family: Playfair Display;
 overflow: hidden; /* Ensures the content is not revealed until the animation */
-border-right: .15em transparent; /* The typwriter cursor */
+border-right: .15em solid white; /* The typwriter cursor */
 white-space: nowrap; /* Keeps the content on a single line */
 letter-spacing: .09em; /* Adjust as needed */
 animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
@@ -942,7 +912,7 @@ to { width: 100% }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
 from, to { border-color: transparent }
-50% { border-color:transparent; }
+50% { border-color: white; }
 }
 
 }
@@ -1082,7 +1052,9 @@ label{
 .wrapper div label:hover{
     background-color: white;
 }
-
+input[type=checkbox]{
+    display: none;
+}
 .wrappers nav{
     position: absolute;
     top:10px;
@@ -1093,9 +1065,6 @@ label{
        }
        .checkbtn{
     margin-top: 10px;
-}
-input[type=checkbox]{
-    display: none;
 }
 input[type=checkbox]:checked~nav{
     width:200px;
@@ -1140,7 +1109,7 @@ input[type=checkbox]:checked~nav{
     display: block;   
 }   
 h1{
-    margin-top:50%;
+    margin-top:25%;
     text-align: center;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -1153,7 +1122,7 @@ position: absolute;
 
 font-family: Playfair Display;
 overflow: hidden; /* Ensures the content is not revealed until the animation */
-border-right: .15em transparent; /* The typwriter cursor */
+border-right: .15em solid white; /* The typwriter cursor */
 white-space: nowrap; /* Keeps the content on a single line */
 letter-spacing: .09em; /* Adjust as needed */
 animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
@@ -1168,7 +1137,7 @@ to { width: 100% }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
 from, to { border-color: transparent }
-50% { border-color: transparent; }
+50% { border-color: white; }
 }
 
 }
