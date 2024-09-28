@@ -376,7 +376,7 @@ background-color:rgba(0, 251, 255, 0.777);
     box-shadow: 2px 5px 5px black;
 }
 
-.wrappers{margin-top:1%;
+.wrappers{
     display: inline-block;
     width:100%;
 }
@@ -590,7 +590,7 @@ background-color:rgba(0, 251, 255, 0.777);
     width: fit-content;
     font-family: 'Roboto', sans-serif;
     height: 50px;   
-    margin-top: -10%;
+    margin-top: -20%;
     color: rgb(6, 6, 143);
     text-shadow: 2px 5px 5px black;
     background-color:rgba(0, 251, 255, 0.777);
