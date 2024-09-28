@@ -386,7 +386,7 @@ background-color:rgba(0, 251, 255, 0.777);
     font-family: 'Roboto', sans-serif;
    float: right;
     height: 50px;   
-    margin-top: 1%
+    margin-top: -15%
     color: rgb(6, 6, 143);
     text-shadow: 2px 5px 5px black;
     background-color:rgba(0, 251, 255, 0.777);
@@ -590,7 +590,7 @@ background-color:rgba(0, 251, 255, 0.777);
     width: fit-content;
     font-family: 'Roboto', sans-serif;
     height: 50px;   
-    margin-top: -30%;
+    margin-top: 3%;
     color: rgb(6, 6, 143);
     text-shadow: 2px 5px 5px black;
     background-color:rgba(0, 251, 255, 0.777);
@@ -692,7 +692,7 @@ background-color:rgba(0, 251, 255, 0.777);
     @media (max-width:725px){
        
         .contactus{
-            margin-top: 35%;
+            margin-top: 45%;
             position: flex;
             margin-left: 80%;
             border: 3px;
@@ -860,7 +860,7 @@ input[type=checkbox]:checked~nav{
     display: block;   
 }   
 h1{
-    margin-top:5%;
+    margin-top:10%;
     text-align: center;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -901,7 +901,7 @@ from, to { border-color: transparent }
             overflow-x: hidden;
         }
         .contactus{
-            margin-top: 35%;
+            margin-top: 55%;
             position: flex;
             margin-left: 80%;
             border: 3px;
