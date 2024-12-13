@@ -16,9 +16,8 @@ body{  margin: 0;
 }
 
 .banner {
-    background: url('contactus.jpg') no-repeat center center;
-    background-size: cover;
-    height: 200px;
+    background-color: red;
+    height: 100px;
     color: white;
     text-align: center;
     display: flex;
@@ -30,6 +29,7 @@ body{  margin: 0;
 .banner .booking-banner {
     margin: 0;
     font-size: 3em;
+    color: black;
 }
 
 
