@@ -779,6 +779,45 @@ from, to { border-color: transparent }
 
 }
     @media (max-width:325px){
+        .note{margin: 0;
+    font-size: 1em;
+    color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+     }
+.notes{margin: 0;
+    font-size: .6em;
+     color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+}
+.banner {
+    background-color: red;
+    height: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .booking-banner {
+    margin: 0;
+    font-size: .7em;
+    color: white;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+}
+
         body{  margin: 0;
             margin-left: 1.5%;
             padding: 0;
