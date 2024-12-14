@@ -785,7 +785,7 @@ from, to { border-color: transparent }
     text-shadow: 2px 5px 5px black;
     font-weight: bold;
       text-align: center;
-   display: flex;
+
       justify-content: center;
     align-items: center;
      }
@@ -795,7 +795,7 @@ from, to { border-color: transparent }
     text-shadow: 2px 5px 5px black;
     font-weight: bold;
       text-align: center;
-   display: flex;
+   
       justify-content: center;
     align-items: center;
 }
