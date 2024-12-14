@@ -14,44 +14,6 @@ body{  margin: 0;
     height:auto;
     overflow-x: hidden;
 }
-.note{margin: 0;
-    font-size: 1.5em;
-    color: orange;
-    text-shadow: 2px 5px 5px black;
-    font-weight: bold;
-      text-align: center;
-   display: flex;
-      justify-content: center;
-    align-items: center;
-     }
-.notes{margin: 0;
-    font-size: 1em;
-     color: orange;
-    text-shadow: 2px 5px 5px black;
-    font-weight: bold;
-      text-align: center;
-   display: flex;
-      justify-content: center;
-    align-items: center;
-}
-.banner {
-    background-color: red;
-    height: 100px;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner .booking-banner {
-    margin: 0;
-    font-size: 2.5em;
-    color: white;
-    text-shadow: 2px 5px 5px black;
-    font-weight: bold;
-}
 
 
 
@@ -93,7 +55,45 @@ body{  margin: 0;
 }
 
     @media (min-width:925px){
-      
+      .note{margin: 0;
+    font-size: 1.5em;
+    color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+     }
+.notes{margin: 0;
+    font-size: 1.2em;
+     color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+}
+.banner {
+    background-color: red;
+    height: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .booking-banner {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+}
+
         .contactus{
             position: flex;
             float: right;
@@ -297,7 +297,45 @@ background-color:rgba(0, 251, 255, 0.777);
     }
     
     @media (min-width:725px) and (max-width:925px){
-        
+        .note{margin: 0;
+    font-size: 1.3em;
+    color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+     }
+.notes{margin: 0;
+    font-size: 1em;
+     color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+}
+.banner {
+    background-color: red;
+    height: 90px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .booking-banner {
+    margin: 0;
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+}
+
         .contactus{
             margin-top:10%;
             position: flex;
@@ -500,7 +538,45 @@ background-color:rgba(0, 251, 255, 0.777);
      }
     }
     @media (max-width:725px){
-       
+       .note{margin: 0;
+    font-size: 1em;
+    color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+     }
+.notes{margin: 0;
+    font-size: .8em;
+     color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+}
+.banner {
+    background-color: red;
+    height: 70px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .booking-banner {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+}
+
         .contactus{
             margin-top: 45%;
             position: flex;
