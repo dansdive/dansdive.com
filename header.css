@@ -17,16 +17,16 @@ body{  margin: 0;
 .note{margin: 0;
     font-size: 1.5em;
     color: orange;
-    text-shadow: 2px 5px 5px white;
+    text-shadow: 2px 5px 5px black;
     font-weight: bold;
       text-align: center;
-       display: flex;
+   
       justify-content: center;
     align-items: center;
      }
 .note p{
     font-size: 1em;
-}
+}olp
 .banner {
     background-color: red;
     height: 100px;
