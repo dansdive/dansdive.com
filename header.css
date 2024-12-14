@@ -20,13 +20,20 @@ body{  margin: 0;
     text-shadow: 2px 5px 5px black;
     font-weight: bold;
       text-align: center;
-   
+   display: flex;
       justify-content: center;
     align-items: center;
      }
-.note p{
+.notes{margin: 0;
     font-size: 1em;
-}olp
+     color: orange;
+    text-shadow: 2px 5px 5px black;
+    font-weight: bold;
+      text-align: center;
+   display: flex;
+      justify-content: center;
+    align-items: center;
+}
 .banner {
     background-color: red;
     height: 100px;
